@@ -5,6 +5,7 @@
 ---
 
 Sin detalles específicos por el momento
+-Antiguo nombre +Nombre nuevo
 
 ---
 
