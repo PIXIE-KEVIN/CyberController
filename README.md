@@ -1,14 +1,14 @@
 # Scene
 
-> 使用本工具前，请确保你已经ROOT手机，并已安装busybox。你最好是个玩机专家，至少也该会刷机和修复系统。因为应用中部分高级功能可能会影响系统正常启动！！！
+> Antes de usar esta herramienta, asegúrate de que tu teléfono esté rooteado y que BusyBox esté instalado. Sería preferible que tengas experiencia en el ámbito de la modificación de dispositivos y, al menos, sepas cómo flashear y reparar el sistema, ya que algunas funciones avanzadas de la aplicación podrían afectar el arranque normal del sistema！！！
 
 ---
 
-暂无详细说明
+Sin detalles específicos por el momento
 
 ---
 
-**应用界面展示**
+**Mostrar la interfaz de la aplicación**
 
 
 <img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/1.png" width="350" /> <img src="https://github.com/helloklf/vtools/raw/master/docs/Screenshot/2.png" width="350" />
