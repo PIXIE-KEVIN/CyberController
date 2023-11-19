@@ -3,7 +3,7 @@
 
     <integer name="opacity">0</integer>
 
-    <string name="format_hh_mm">%02d:%02d</string>
+    <string name="format_hh_mm" formatted="false">%02d:%02d</string>
     <string name="btn_cancel">Cancelar</string>
     <string name="btn_not_now">Decidir después</string>
     <string name="btn_delete">Eliminar</string>
@@ -37,7 +37,7 @@
     <string name="app_name_short">CyberController</string>
     <string name="app_name_mode_switch">Cyber-modo de cambio rápido</string>
 
-    <string name="accessibility_service_description">Servicio de Mejora de CyberController\nNecesitas activar este servicio para poder utilizar las siguientes funciones: \n\n1.Respuesta Dinámica (ajuste automático del rendimiento basado en la aplicación en primer plano).\n\n2.Comportamiento Automático (cambio de red al encender o apagar la pantalla, recuperación de procesos al cambiar de aplicaciones).\n\n3.Instalación Automática (clic automático al instalar aplicaciones de terceros en 'Siguiente')</string>
+    <string name="accessibility_service_description">Servicio de Mejora de CyberController\nNecesitas activar este servicio para poder utilizar las siguientes funciones: \n\n1.Respuesta Dinámica (ajuste automático del rendimiento basado en la aplicación en primer plano).\n\n2.Comportamiento Automático (cambio de red al encender o apagar la pantalla, recuperación de procesos al cambiar de aplicaciones).\n\n3.Instalación Automática (clic automático al instalar aplicaciones de terceros en \'Siguiente\')</string>
 
     <string name="backup_action_title_boot">"exportar el Boot"</string>
     <string name="backup_action_desc_boot">Haz una copia de seguridad del Boot actual como imagen (img), y copia el archivo a /sdcard/boot.img</string>
@@ -52,7 +52,7 @@
     <string name="backup_action_title_dtbo">Exportar la partición DTBO</string>
     <string name="backup_action_desc_dtbo">Exporta la partición DTBO como imagen (img), y copia el archivo a /sdcard/dtbo.img</string>
     <string name="restore_action_title_dtbo">Flashea/instala la imagen DTBO</string>
-    <string name="restore_action_desc_dtbo">Selecciona 'flashear/instalar' dtbo.img"</string>
+    <string name="restore_action_desc_dtbo">Selecciona 'flashear/instalar' dtbo.img</string>
 
     <string name="backup_action_title_persist">exportar la partición Persist</string>
     <string name="backup_action_desc_persist">Exporta la partición Persist como imagen (img) y copia el archivo a /sdcard/persist.img</string>
@@ -61,7 +61,7 @@
 
     <string name="backup_file_exists">sobrescribir archivo？</string>
     <string name="backup_img_exists">/sdcard/%s.img ya existe. ¿Quieres sobrescribir el archivo existente? \n</string>
-    <string name="backup_space_small">Espacio de almacenamiento insuficiente. Por favor, asegúrate de reservar al menos 200 MB de espacio disponible！</string>
+    <string name="backup_space_small">Espacio de almacenamiento insuficiente. Por favor, asegúrate de reservar al menos 200 MB de espacio disponible!</string>
 
     <string name="autobooster_tab_details">Configuración de lista negra</string>
     <string name="autobooster_tab_system_scene">Escenario del sistema</string>
@@ -69,7 +69,7 @@
     <string name="auto_clear_ignore_chager_desc">Bajo estado de carga, la acción de apagar la pantalla se retrasará hasta que la carga esté completa antes de ejecutarse</string>
 
     <string name="settings_disable_selinux">Modo permisivo de SeLinux</string>
-    <string name="settings_disable_selinux_desc">Cambiar SELinux al modo permisivo (algunos programas lo llaman 'desactivar SELinux'). El estado de SELinux no tiene ningún impacto en CyberController, y habilitar el modo permisivo puede causar bloqueos y reinicios！</string>
+    <string name="settings_disable_selinux_desc">Cambiar SELinux al modo permisivo (algunos programas lo llaman 'desactivar SELinux'). El estado de SELinux no tiene ningún impacto en CyberController, y habilitar el modo permisivo puede causar bloqueos y reinicios!</string>
     <string name="settings_theme">Tema</string>
     <string name="settings_theme_wallpaper">Fondo del tema</string>
     <string name="settings_theme_wallpaper_desc">Utilizar el fondo de pantalla del sistema como fondo de ventana, mostrando una interfaz semitransparente</string>
@@ -123,7 +123,7 @@
     <string name="battery_title_desc1">Para utilizar las funciones de 'Ajuste de carga' y 'Protección de carga', asegúrate de que CyberController se esté ejecutando en segundo plano！</string>
     <string name="battery_reality_limit">Corriente límite real：</string>
     <string name="battery_pd_allowed">USB-PD carga rápida</string>
-    <string name="battery_pd_allowed_desc">La activación de la carga USB-PD se determinará automáticamente según la compatibilidad del teléfono. No es necesario configurarlo manualmente. Cambiarlo manualmente puede provocar una velocidad de carga más lenta, por lo que no se permite la modificación manual！</string>
+    <string name="battery_pd_allowed_desc">La activación de la carga USB-PD se determinará automáticamente según la compatibilidad del teléfono. No es necesario configurarlo manualmente. Cambiarlo manualmente puede provocar una velocidad de carga más lenta, por lo que no se permite la modificación manual!</string>
     <string name="battery_pd_active_state">Estado actual：</string>
     <string name="battery_pd_active_1">Se ha activado el modo de carga rápida PD</string>
     <string name="battery_pd_active_0">No se ha activado el modo de carga rápida PD</string>
@@ -132,7 +132,7 @@
     <string name="battery_pd_active_unknown">Desconocido</string>
     <string name="battery_uevent_title">$ bms/uevent</string>
     <string name="battery_usb_uevent_title">$ usb/uevent</string>
-    <string name="battery_night_mode_time">%02d:%02d</string>
+    <string name="battery_night_mode_time" formatted="false">%02d:%02d</string>
     <string name="battery_night_mode">Velocidad de carga dinámica</string>
     <string name="battery_night_mode_desc">Ajustar a carga lenta cuando esté cerca de estar completamente cargado \n\nY reducir la velocidad de carga de forma activa durante la noche</string>
     <string name="battery_time_get_up">hora de despertar</string>
@@ -147,7 +147,7 @@
     <string name="battery_bp_desc">detener la carga una vez alcanzado el nivel de batería especificado \n\nAtención: el uso prolongado puede provocar una visualización incorrecta del nivel de batería</string>
     <string name="battery_bp_level_desc">valor límite de la batería（%）</string>
     <string name="battery_qc_charger">ajuste de velocidad de carga</string>
-    <string name="battery_bp_status">Detener la carga cuando alcance %d%%, y reanudar cuando esté por debajo de %d%%</string>
+    <string name="battery_bp_status" formatted="false">Detener la carga cuando alcance %d%%, y reanudar cuando esté por debajo de %d%%</string>
     <string name="battery_qc_charger_desc">Ajustar la limitación de velocidad de carga. Aumentarla de manera excesiva no tiene sentido, ya que no se obtendrán resultados prácticos. Ajusta los valores dentro de un rango efectivo.\n\nNota: El valor máximo es solo una referencia, debes basarte en la velocidad de carga real！</string>
     <string name="battery_charge_disabled">Carga deshabilitada！</string>
     <string name="battery_charge_resumed">Carga habilitada nuevamente！</string>
@@ -177,7 +177,7 @@
 
     <string name="applist_warn">La función actual de copia de seguridad de datos de la aplicación requiere la integración del sistema con Busybox y Toybox. Utiliza la compresión tar+gz para los datos (si el sistema lo admite, se utilizará pigz para mejorar la velocidad de compresión). Solo se realiza la copia de seguridad de los datos en "/data/data/nombre_del_paquete_de_la_aplicación", y no se garantiza la compatibilidad con todos los sistemas y aplicaciones。\n\nLos archivos de copia de seguridad de la aplicación se encuentran en /sdcard/backups/apps (la funcionalidad de copia de seguridad no es compatible con sistemas Android 11 o posteriores)</string>
     <string name="dialog_addin_device_warn">Por favor, no introduzcas símbolos especiales en la información del modelo del dispositivo！\nCompatible【Variables de la aplicación】Código de modelo del módulo，Después de copiar, vuelve a abrir esta ventana para usarlo！</string>
-    <string name="dialog_addin_device_desc">Después de realizar cambios, haz clic en 'Restaurar' -> 'Confirmar' para revertir al modelo anterior. Desinstalar CyberController resultará en la pérdida de la información de modelo respaldada, así que asegúrate de restaurar antes de desinstalar！\n\nO，También puedes restaurar la información del modelo mediante una nueva instalación de la ROM completa！\n\nNo utilices esta función para cambiar el modelo si estás utilizando la aplicación DualBootPatcher para múltiples sistemas！！！</string>
+    <string name="dialog_addin_device_desc">Después de realizar cambios, haz clic en 'Restaurar' -> 'Confirmar' para revertir al modelo anterior. Desinstalar CyberController resultará en la pérdida de la información de modelo respaldada, así que asegúrate de restaurar antes de desinstalar! \n\n O，También puedes restaurar la información del modelo mediante una nueva instalación de la ROM completa! \n\nNo utilices esta función para cambiar el modelo si estás utilizando la aplicación DualBootPatcher para múltiples sistemas!!!</string>
     <string name="dialog_addin_device_inner">Plantilla predefinida</string>
     <string name="title_activity_shortcut">Acceso directo</string>
     <string name="title_activity_freeze">Congelado</string>
@@ -192,7 +192,7 @@
     <string name="shortcut_p3_long">Configuración de rendimiento-Rendimiento</string>
     <string name="shortcut_p4">Modo ultrarrápido</string>
     <string name="shortcut_p4_long">Configuración de rendimiento-Modo ultrarrápido</string>
-    <string name="device_unsupport">Esta función no es compatible con su dispositivo en este momento！</string>
+    <string name="device_unsupport">Esta función no es compatible con su dispositivo en este momento!</string>
 
     <string name="addin_fullscreen_on">Experiencia inmersiva</string>
     <string name="addin_fullscreen_on_desc">Ocultar automáticamente la barra de estado y la barra de navegación"</string>
@@ -200,7 +200,7 @@
     <string name="addin_flyme_static_blur_desc">Inhabilitar el efecto de desenfoque en tiempo real en el centro de notificaciones al deslizar hacia abajo en Flyme 6. Esto ayuda a reducir la interrupción en dispositivos Meizu de gama baja al jugar o ver videos al deslizar hacia abajo el centro de notificaciones, y posiblemente ahorra batería. Se requiere reiniciar。</string>
     <string name="addin_miui_hide_search">MIUI9-Eliminar la búsqueda en el centro de notificaciones</string>
     <string name="addin_miui_hide_search_desc">Ocultar por defecto el cuadro de búsqueda en el centro de notificaciones al deslizar hacia abajo en el sistema MIUI 9. Se aplicará después de reiniciar</string>
-    <string name="addin_dpi">DPI、分辨率修改</string>
+    <string name="addin_dpi">DPI、modificación de la resolución</string>
     <string name="addin_dpi_desc">Personalizar la densidad de píxeles (DPI) o la resolución del teléfono puede provocar que el dispositivo no se inicie correctamente o errores en la interfaz de usuario (UI)</string>
     <string name="addin_deviceinfo">Modificar el modelo del dispositivo</string>
     <string name="addin_deviceinfo_desc">Al disfrazar el modelo mediante la modificación de build.prop, algunos teléfonos pueden no encenderse correctamente o presentar problemas</string>
@@ -254,9 +254,9 @@
     <string name="swap_outside_effect3">3.Ajustar los parámetros de VM para aumentar la eficacia del uso de ZRAM y Swapfile</string>
     <string name="swap_module_install_desc">Después de descargar el módulo, ingrésalo manualmente en Magisk Manager y reinicia el teléfono！</string>
     <string name="swap_zram_stat_desc">La tasa de compresión típica de ZRAM suele estar entre el 20% y el 45%</string>
-    <string name="swap_zram_stat_format">Algoritmo de compresión de datos: %s\nTamaño de datos original: %s\nTamaño después de la compresión: %s\nUso de memoria física: %s\nUso máximo de memoria: %s\nLímite de uso de memoria: %s\nTasa de compresión: %s</string>
-    <string name="swap_zram_stat_format2">Algoritmo de compresión de datos: %s\nTamaño de datos original: %s\nTamaño después de la compresión: %s\nTasa de compresión: %s</string>
-    <string name="swap_zram_writback_stat">ZRAM Writeback\nBloque de escritura: %s\nEscrito: %d MB\nLecturas totales: %d MB\nEscrituras totales: %d MB</string>
+    <string name="swap_zram_stat_format" formatted="false">Algoritmo de compresión de datos: %s\nTamaño de datos original: %s\nTamaño después de la compresión: %s\nUso de memoria física: %s\nUso máximo de memoria: %s\nLímite de uso de memoria: %s\nTasa de compresión: %s</string>
+    <string name="swap_zram_stat_format2" formatted="false">Algoritmo de compresión de datos: %s\nTamaño de datos original: %s\nTamaño después de la compresión: %s\nTasa de compresión: %s</string>
+    <string name="swap_zram_writback_stat" formatted="false">ZRAM Writeback\nBloque de escritura: %s\nEscrito: %d MB\nLecturas totales: %d MB\nEscrituras totales: %d MB</string>
     <string name="swap_zram_compact_algorithm">Algoritmo de compresión</string>
     <string name="swap_state_undefined">No creado</string>
     <string name="swap_state_created">No iniciado</string>
@@ -264,7 +264,7 @@
     <string name="extra_free_kbytes">extra_free_kbytes(KB)</string>
     <string name="extra_free_kbytes_desc">Este valor especifica cuánta memoria física adicional reservará el kernel de Linux. Cuando la memoria es escasa, comenzará a comprimir la memoria en SWAP/ZRAM de inmediato. El dispositivo se volverá notablemente lento hasta que la memoria disponible vuelva a un rango razonable.\n\nEn pocas palabras, cuanto mayor sea el valor de extra_free_kbytes, más agresiva será la recuperación de memoria (swap o matar procesos), pero se desaconseja establecer un valor demasiado alto para evitar desperdiciar memoria física y aumentar la carga en el disco/procesador！</string>
     <string name="watermark_scale_factor">watermark_scale_factor</string>
-    <string name="watermark_scale_factor_desc">El rango de valores es de 0 a 1000, donde 1000 representa el 10%. Esto indica que hay una diferencia del 10% (de la capacidad de RAM física) entre los valores de la línea de agua de baja/mínima/alta。\n\nPor ejemplo (en mi teléfono):\npageSize=4KB\nmanaged=1951743(pages)\nmin_free_kbytes=10900(KB)\nwatermark_scale_factor=500\n\nEn este momento, el valor mínimo (min) es\n10900(KB)/4(PageSize)=2725(pages)\nlowEl valor es aproximadamente\n1951743*5%+2725≈100312(pages)\nhighEl valor es aproximadamente\n1951743*10%+2725≈197899(pages)\nNota: Final:low、highEl valor，Puede verse afectado por la influencia de extra_free_kbytes y ser más grande\n\nEn este ejemplo，\nmin=2725=10MB\nlow=100312≈392MB\nhigh=197899≈773MB\n\nSignifica，Cuando la memoria es inferior a 392MB, se iniciará el proceso de recuperación de memoria，Hasta que la memoria disponible supere los 773MB~</string>
+    <string name="watermark_scale_factor_desc" formatted="false">El rango de valores es de 0 a 1000, donde 1000 representa el 10%. Esto indica que hay una diferencia del 10% (de la capacidad de RAM física) entre los valores de la línea de agua de baja/mínima/alta.\n\nPor ejemplo (en mi teléfono):\npageSize=4KB\nmanaged=1951743(pages)\nmin_free_kbytes=10900(KB)\nwatermark_scale_factor=500\n\nEn este momento, el valor mínimo (min) es\n10900(KB)/4(PageSize)=2725(pages)\nlowEl valor es aproximadamente\n1951743*5%+2725≈100312(pages)\nhighEl valor es aproximadamente\n1951743*10%+2725≈197899(pages)\nNota: Final:low、highEl valor，Puede verse afectado por la influencia de extra_free_kbytes y ser más grande\n\nEn este ejemplo，\nmin=2725=10MB\nlow=100312≈392MB\nhigh=197899≈773MB\n\nSignifica，Cuando la memoria es inferior a 392MB, se iniciará el proceso de recuperación de memoria，Hasta que la memoria disponible supere los 773MB~</string>
 
     <string name="on_execute_please_wait">Realizando operación，Por favor, espera.…</string>
     <string name="please_wait">Por favor, espera…</string>
