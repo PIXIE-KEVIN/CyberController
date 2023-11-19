@@ -23,23 +23,23 @@
     <string name="btn_apply">Aplicar</string>
     <string name="btn_reboot">Reiniciar</string>
     <string name="btn_resume_selected">Restaurar selección</string>
-    <string name="error_su_timeout">tiempo de espera agotado，Por favor asegúrate de que tu gestor de root está funcionando en segundo plano y vuelve a intentarlo！\n\nAsegúrate de no bloquear“Administrador de autorizaciones(SuperSu、Magisk administrador,etc)”inicio automático y permitir ventanas emergentes en segundo plano、permisos de mostrar ventanas flotantes,etc。Si el cuadro de diálogo de autorización no aparece，Se sugiere reiniciar el teléfono y volver a intentarlo！\n</string>
+    <string name="error_su_timeout">tiempo de espera agotado, Por favor asegúrate de que tu gestor de root está funcionando en segundo plano y vuelve a intentarlo! \n\nAsegúrate de no bloquear Administrador de autorizaciones(SuperSu, Magisk administrador, etc)"inicio automático y permitir ventanas emergentes en segundo plano, permisos de mostrar ventanas flotantes,etc. Si el cuadro de diálogo de autorización no aparece, Se sugiere reiniciar el teléfono y volver a intentarlo! \n</string>
 
     <string name="error_root">No se pudo obtener permisos de ROOT, lo siento</string>
-    <string name="error_root_desc">Sin los permisos ROOT, perderás muchas funciones especiales. Si te has perdido la solicitud de autorización o no has visto la ventana emergente, busca tu administrador ROOT y configura manualmente para permitir que CyberController utilice los permisos ROOT~</string>
-    <string name="question_install_busybox">Desea instalar Busybox？</string>
-    <string name="question_install_busybox_desc">Parece que tu teléfono no tiene instalado Busybox，Esto hará que CyberController no pueda ser utilizado，Quieres instalarlo ahora?（Requiere modificar el sistema）？</string>
+    <string name="error_root_desc">Sin los permisos ROOT, perderás muchas funciones especiales. Si te has perdido la solicitud de autorización o no has visto la ventana emergente, busca tu administrador ROOT y configura manualmente para permitir que CyberController utilice los permisos ROOT</string>
+    <string name="question_install_busybox">Desea instalar Busybox?</string>
+    <string name="question_install_busybox_desc">Parece que tu teléfono no tiene instalado Busybox, Esto hará que CyberController no pueda ser utilizado, Quieres instalarlo ahora? (Requiere modificar el sistema?</string>
 
     <string name="share_link">Puedes Compartir CyberController también, me parece genial. Aquí está el enlace de descarga: http://vtools.omarea.com/</string>
     <!--<string name="feedback_link">mqqwpa://im/chat?chat_type=wpa&amp;uin=1191634433</string>-->
 
     <string name="app_name">CyberController</string>
     <string name="app_name_short">CyberController</string>
-    <string name="app_name_mode_switch">Cyber-modo de cambio rápido</string>
+    <string name="app_name_mode_switch">CyberController-modo de cambio rápido</string>
 
-    <string name="accessibility_service_description">Servicio de Mejora de CyberController\nNecesitas activar este servicio para poder utilizar las siguientes funciones: \n\n1.Respuesta Dinámica (ajuste automático del rendimiento basado en la aplicación en primer plano).\n\n2.Comportamiento Automático (cambio de red al encender o apagar la pantalla, recuperación de procesos al cambiar de aplicaciones).\n\n3.Instalación Automática (clic automático al instalar aplicaciones de terceros en \'Siguiente\')</string>
+    <string name="accessibility_service_description">Servicio de Mejora de CyberController \nNecesitas activar este servicio para poder utilizar las siguientes funciones: \n\n1.Respuesta Dinámica (ajuste automático del rendimiento basado en la aplicación en primer plano).\n\n2.Comportamiento Automático (cambio de red al encender o apagar la pantalla, recuperación de procesos al cambiar de aplicaciones).\n\n3.Instalación Automática (clic automático al instalar aplicaciones de terceros en \'Siguiente\')</string>
 
-    <string name="backup_action_title_boot">"exportar el Boot"</string>
+    <string name="backup_action_title_boot">exportar el Boot</string>
     <string name="backup_action_desc_boot">Haz una copia de seguridad del Boot actual como imagen (img), y copia el archivo a /sdcard/boot.img</string>
     <string name="restore_action_title_boot">flashear/bootear</string>
     <string name="restore_action_desc_boot">Selecciona 'flashear/bootear' boot.img</string>
@@ -59,7 +59,7 @@
     <string name="restore_action_title_persist">"Flashea/instala la imagen Persist</string>
     <string name="restore_action_desc_persist">Selecciona 'flashear/instalar' persist.img</string>
 
-    <string name="backup_file_exists">sobrescribir archivo？</string>
+    <string name="backup_file_exists">sobrescribir archivo?</string>
     <string name="backup_img_exists">/sdcard/%s.img ya existe. ¿Quieres sobrescribir el archivo existente? \n</string>
     <string name="backup_space_small">Espacio de almacenamiento insuficiente. Por favor, asegúrate de reservar al menos 200 MB de espacio disponible!</string>
 
@@ -73,7 +73,7 @@
     <string name="settings_theme">Tema</string>
     <string name="settings_theme_wallpaper">Fondo del tema</string>
     <string name="settings_theme_wallpaper_desc">Utilizar el fondo de pantalla del sistema como fondo de ventana, mostrando una interfaz semitransparente</string>
-    <string name="settings_debug_layer">"Ventana de depuración</string>
+    <string name="settings_debug_layer">Ventana de depuración</string>
     <string name="settings_debug_layer_desc">Mostrar registros del proceso de CyberController para determinar la aplicación en primer plano</string>
     <string name="settings_help_icon">Icono de notificación</string>
     <string name="settings_help_icon_desc">Mostrar un ícono de explicación (signo de interrogación) junto a las opciones de función</string>
@@ -120,15 +120,15 @@
     <string name="accessibility_stoped">Haz clic aquí para activar los servicios de accesibilidad</string>
 
     <string name="battery_title">batería：</string>
-    <string name="battery_title_desc1">Para utilizar las funciones de 'Ajuste de carga' y 'Protección de carga', asegúrate de que CyberController se esté ejecutando en segundo plano！</string>
-    <string name="battery_reality_limit">Corriente límite real：</string>
+    <string name="battery_title_desc1">Para utilizar las funciones de 'Ajuste de carga' y 'Protección de carga', asegúrate de que CyberController se esté ejecutando en segundo plano!</string>
+    <string name="battery_reality_limit">Corriente límite real:</string>
     <string name="battery_pd_allowed">USB-PD carga rápida</string>
     <string name="battery_pd_allowed_desc">La activación de la carga USB-PD se determinará automáticamente según la compatibilidad del teléfono. No es necesario configurarlo manualmente. Cambiarlo manualmente puede provocar una velocidad de carga más lenta, por lo que no se permite la modificación manual!</string>
     <string name="battery_pd_active_state">Estado actual：</string>
     <string name="battery_pd_active_1">Se ha activado el modo de carga rápida PD</string>
     <string name="battery_pd_active_0">No se ha activado el modo de carga rápida PD</string>
-    <string name="battery_auto_boot_desc">OK，Si deseas activar esta función automáticamente después de reiniciar el teléfono, permite que CyberController se inicie automáticamente al arrancar el dispositivo！</string>
-    <string name="battery_qc_rehoot_desc">El servicio de carga rápida ha sido desactivado. Puede ser necesario reiniciar el teléfono para restablecer la configuración predeterminada！</string>
+    <string name="battery_auto_boot_desc">OK，Si deseas activar esta función automáticamente después de reiniciar el teléfono, permite que CyberController se inicie automáticamente al arrancar el dispositivo!</string>
+    <string name="battery_qc_rehoot_desc">El servicio de carga rápida ha sido desactivado. Puede ser necesario reiniciar el teléfono para restablecer la configuración predeterminada!</string>
     <string name="battery_pd_active_unknown">Desconocido</string>
     <string name="battery_uevent_title">$ bms/uevent</string>
     <string name="battery_usb_uevent_title">$ usb/uevent</string>
@@ -145,38 +145,38 @@
     <string name="battery_delete_history">borrar registros</string>
     <string name="battery_bp">protección de carga</string>
     <string name="battery_bp_desc">detener la carga una vez alcanzado el nivel de batería especificado \n\nAtención: el uso prolongado puede provocar una visualización incorrecta del nivel de batería</string>
-    <string name="battery_bp_level_desc">valor límite de la batería（%）</string>
+    <string name="battery_bp_level_desc">valor límite de la batería（%</string>
     <string name="battery_qc_charger">ajuste de velocidad de carga</string>
     <string name="battery_bp_status" formatted="false">Detener la carga cuando alcance %d%%, y reanudar cuando esté por debajo de %d%%</string>
-    <string name="battery_qc_charger_desc">Ajustar la limitación de velocidad de carga. Aumentarla de manera excesiva no tiene sentido, ya que no se obtendrán resultados prácticos. Ajusta los valores dentro de un rango efectivo.\n\nNota: El valor máximo es solo una referencia, debes basarte en la velocidad de carga real！</string>
-    <string name="battery_charge_disabled">Carga deshabilitada！</string>
-    <string name="battery_charge_resumed">Carga habilitada nuevamente！</string>
-    <string name="battery_forgery">falsificación de datos</string>
-    <string name="battery_forgery_ratio">porcentaje de carga de la batería</string>
-    <string name="battery_forgery_full_now">carga completa</string>
-    <string name="battery_step_charge">carga por etapas</string>
-    <string name="battery_step_charge_desc">El sistema ajusta la velocidad máxima de carga en etapas según el nivel de la batería, lo que ayuda a preservar la vida útil de la batería.\n\nGeneralmente se recomienda mantener la configuración predeterminada</string>
+    <string name="battery_qc_charger_desc">Ajustar la limitación de velocidad de carga. Aumentarla de manera excesiva no tiene sentido, ya que no se obtendrán resultados prácticos. Ajusta los valores dentro de un rango efectivo. \n\nNota: El valor máximo es solo una referencia, debes basarte en la velocidad de carga real!</string>
+    <string name="battery_charge_disabled">Carga deshabilitada!</string>
+    <string name="battery_charge_resumed">Carga habilitada nuevamente!</string>
+    <string name="battery_forgery">Falsificación de datos</string>
+    <string name="battery_forgery_ratio">Porcentaje de carga de la batería</string>
+    <string name="battery_forgery_full_now">Carga completa</string>
+    <string name="battery_step_charge">Carga por etapas</string>
+    <string name="battery_step_charge_desc">El sistema ajusta la velocidad máxima de carga en etapas según el nivel de la batería, lo que ayuda a preservar la vida útil de la batería. \n\nGeneralmente se recomienda mantener la configuración predeterminada</string>
     <string name="battery_exec_option">Propósito de ajuste de velocidad de carga</string>
     <string-array name="battery_exec_options">
         <item>reducir la velocidad</item>
         <item>aumentar la velocidad de carga</item>
         <item>cargar hasta morir</item>
     </string-array>
-    <string name="battery_exec_desc">CyberController se ajustará la velocidad según tu elección en momentos específicos，Las diferencias específicas son las siguientes \n\nReducir la velocidad：Solo se vuelve a ajustar la velocidad de carga cuando el cargador está conectado y hay un cambio en el porcentaje de la batería \nCarga rápida：cambio en el estado de la batería、ajustar la velocidad de carga cuando se conecta el cargador\nCargar al máximo：sobre la base de la lógica de [Carga acelerada]，ajustar automáticamente la velocidad de carga cada segundo</string>
+    <string name="battery_exec_desc">CyberController se ajustará la velocidad según tu elección en momentos específicos, Las diferencias específicas son las siguientes \n\nReducir la velocidad：Solo se vuelve a ajustar la velocidad de carga cuando el cargador está conectado y hay un cambio en el porcentaje de la batería \nCarga rápida: cambio en el estado de la batería, ajustar la velocidad de carga cuando se conecta el cargador \nCargar al máximo: sobre la base de la lógica de [Carga acelerada], ajustar automáticamente la velocidad de carga cada segundo</string>
 
-    <string name="battery_status_discharging">【no cargando】</string>
-    <string name="battery_status_charging">【cargando】</string>
-    <string name="battery_status_full">【carga completa】</string>
-    <string name="battery_status_not_charging">【no cargando】</string>
-    <string name="battery_status_unknown">【estado indeterminado】</string>
-    <string name="battery_status_sum">（Casi cargado completamente %smAh）</string>
-    <string name="electricity_unit_adj">calibración de la unidad de corriente</string>
-    <string name="electricity_unit_adj_desc">tasa de carga actual，dividir entre：</string>
-    <string name="electricity_unit_as">mostrar como：</string>
+    <string name="battery_status_discharging">No cargando</string>
+    <string name="battery_status_charging">Cargando</string>
+    <string name="battery_status_full">Carga completa</string>
+    <string name="battery_status_not_charging">No cargando</string>
+    <string name="battery_status_unknown">Estado indeterminado</string>
+    <string name="battery_status_sum">(Casi cargado completamente %smAh)</string>
+    <string name="electricity_unit_adj">Calibración de la unidad de corriente</string>
+    <string name="electricity_unit_adj_desc">Tasa de carga actual，dividir entre：</string>
+    <string name="electricity_unit_as">Mostrar como:</string>
     <string name="electricity_unit_adj_desc2">La carga debería mostrarse como un número positivo, mientras que la descarga debería mostrarse como un número negativo</string>
 
-    <string name="applist_warn">La función actual de copia de seguridad de datos de la aplicación requiere la integración del sistema con Busybox y Toybox. Utiliza la compresión tar+gz para los datos (si el sistema lo admite, se utilizará pigz para mejorar la velocidad de compresión). Solo se realiza la copia de seguridad de los datos en "/data/data/nombre_del_paquete_de_la_aplicación", y no se garantiza la compatibilidad con todos los sistemas y aplicaciones。\n\nLos archivos de copia de seguridad de la aplicación se encuentran en /sdcard/backups/apps (la funcionalidad de copia de seguridad no es compatible con sistemas Android 11 o posteriores)</string>
-    <string name="dialog_addin_device_warn">Por favor, no introduzcas símbolos especiales en la información del modelo del dispositivo！\nCompatible【Variables de la aplicación】Código de modelo del módulo，Después de copiar, vuelve a abrir esta ventana para usarlo！</string>
+    <string name="applist_warn">La función actual de copia de seguridad de datos de la aplicación requiere la integración del sistema con Busybox y Toybox. Utiliza la compresión tar+gz para los datos (si el sistema lo admite, se utilizará pigz para mejorar la velocidad de compresión). Solo se realiza la copia de seguridad de los datos en "/data/data/nombre_del_paquete_de_la_aplicación", y no se garantiza la compatibilidad con todos los sistemas y aplicaciones. \n\nLos archivos de copia de seguridad de la aplicación se encuentran en /sdcard/backups/apps (la funcionalidad de copia de seguridad no es compatible con sistemas Android 11 o posteriores)</string>
+    <string name="dialog_addin_device_warn">Por favor, no introduzcas símbolos especiales en la información del modelo del dispositivo! \nCompatible[Variables de la aplicación]Código de modelo del módulo，Después de copiar, vuelve a abrir esta ventana para usarlo!</string>
     <string name="dialog_addin_device_desc">Después de realizar cambios, haz clic en 'Restaurar' -> 'Confirmar' para revertir al modelo anterior. Desinstalar CyberController resultará en la pérdida de la información de modelo respaldada, así que asegúrate de restaurar antes de desinstalar! \n\n O，También puedes restaurar la información del modelo mediante una nueva instalación de la ROM completa! \n\nNo utilices esta función para cambiar el modelo si estás utilizando la aplicación DualBootPatcher para múltiples sistemas!!!</string>
     <string name="dialog_addin_device_inner">Plantilla predefinida</string>
     <string name="title_activity_shortcut">Acceso directo</string>
@@ -195,41 +195,41 @@
     <string name="device_unsupport">Esta función no es compatible con su dispositivo en este momento!</string>
 
     <string name="addin_fullscreen_on">Experiencia inmersiva</string>
-    <string name="addin_fullscreen_on_desc">Ocultar automáticamente la barra de estado y la barra de navegación"</string>
+    <string name="addin_fullscreen_on_desc">Ocultar automáticamente la barra de estado y la barra de navegación</string>
     <string name="addin_flyme_static_blur">Reducir el desenfoque en Flyme6</string>
-    <string name="addin_flyme_static_blur_desc">Inhabilitar el efecto de desenfoque en tiempo real en el centro de notificaciones al deslizar hacia abajo en Flyme 6. Esto ayuda a reducir la interrupción en dispositivos Meizu de gama baja al jugar o ver videos al deslizar hacia abajo el centro de notificaciones, y posiblemente ahorra batería. Se requiere reiniciar。</string>
+    <string name="addin_flyme_static_blur_desc">Inhabilitar el efecto de desenfoque en tiempo real en el centro de notificaciones al deslizar hacia abajo en Flyme 6. Esto ayuda a reducir la interrupción en dispositivos Meizu de gama baja al jugar o ver videos al deslizar hacia abajo el centro de notificaciones, y posiblemente ahorra batería. Se requiere reiniciar.</string>
     <string name="addin_miui_hide_search">MIUI9-Eliminar la búsqueda en el centro de notificaciones</string>
     <string name="addin_miui_hide_search_desc">Ocultar por defecto el cuadro de búsqueda en el centro de notificaciones al deslizar hacia abajo en el sistema MIUI 9. Se aplicará después de reiniciar</string>
-    <string name="addin_dpi">DPI、modificación de la resolución</string>
+    <string name="addin_dpi">DPI, modificación de la resolución</string>
     <string name="addin_dpi_desc">Personalizar la densidad de píxeles (DPI) o la resolución del teléfono puede provocar que el dispositivo no se inicie correctamente o errores en la interfaz de usuario (UI)</string>
     <string name="addin_deviceinfo">Modificar el modelo del dispositivo</string>
     <string name="addin_deviceinfo_desc">Al disfrazar el modelo mediante la modificación de build.prop, algunos teléfonos pueden no encenderse correctamente o presentar problemas</string>
-    <string name="addin_mac">Modificar la dirección MAC (Plan 1) </string>
+    <string name="addin_mac">Modificar la dirección MAC (Plan 1)</string>
     <string name="addin_mac_desc">Personalizar la dirección MAC de la tarjeta WiFi del teléfono, solo compatible con algunos dispositivos</string>
-    <string name="addin_mac_2">Modificar la dirección MAC (Plan 2) </string>
+    <string name="addin_mac_2">Modificar la dirección MAC (Plan 2)</string>
     <string name="addin_mac_desc_2">Personalizar la dirección MAC de la tarjeta WiFi del teléfono, solo compatible con algunos dispositivos, especialmente adecuado para Android Q</string>
     <string name="addin_force_dex_compile">Forzar la compilación dex2oat</string>
-    <string name="addin_force_dex_compile_desc">Realizar la compilación dex2oat en la aplicación para reducir el uso de CPU y RAM durante la ejecución. El proceso de compilación puede llevar aproximadamente media hora, y es necesario volver a compilar después de las actualizaciones del sistema！</string>
-    <string name="addin_dexopt_helpinfo">Desde Android N en adelante, para reducir el espacio ocupado por la aplicación y mejorar la eficiencia de instalación, ya no se realiza una compilación completa de dex durante la instalación, lo que puede afectar la velocidad de ejecución. Al seleccionar la opción 'Compilar' en esta función, se utilizará el modo speed para compilar durante la instalación, lo que ralentiza significativamente la velocidad de instalación, pero mejora la fluidez durante la ejecución (aproximadamente un aumento del 20%, sin mejora en la velocidad de fotogramas de juegos)！)。\n\nTomando como ejemplo la aplicación Douyu TV en un sistema Oreo, el archivo base.odex tiene solo 6.8MB al instalarse por primera vez, pero después de compilar aumenta a 103MB。\n\nSin embargo, muchas aplicaciones en China utilizan tecnologías de actualización en caliente, lo que significa que a menudo necesitan descargar el código más reciente desde el servidor y analizarlo durante la ejecución. Esta es la principal razón por la cual estas aplicaciones pueden tener un inicio lento o experimentar retrasos después del inicio. Por lo tanto, la compilación dex2oat no proporciona mejoras significativas de rendimiento para este tipo de aplicaciones！</string>
+    <string name="addin_force_dex_compile_desc">Realizar la compilación dex2oat en la aplicación para reducir el uso de CPU y RAM durante la ejecución. El proceso de compilación puede llevar aproximadamente media hora, y es necesario volver a compilar después de las actualizaciones del sistema!</string>
+    <string name="addin_dexopt_helpinfo">Desde Android N en adelante, para reducir el espacio ocupado por la aplicación y mejorar la eficiencia de instalación, ya no se realiza una compilación completa de dex durante la instalación, lo que puede afectar la velocidad de ejecución. Al seleccionar la opción 'Compilar' en esta función, se utilizará el modo speed para compilar durante la instalación, lo que ralentiza significativamente la velocidad de instalación, pero mejora la fluidez durante la ejecución (aproximadamente un aumento del 20%, sin mejora en la velocidad de fotogramas de juegos)!). \n\nTomando como ejemplo la aplicación Douyu TV en un sistema Oreo, el archivo base.odex tiene solo 6.8MB al instalarse por primera vez, pero después de compilar aumenta a 103MB. \n\nSin embargo, muchas aplicaciones en China utilizan tecnologías de actualización en caliente, lo que significa que a menudo necesitan descargar el código más reciente desde el servidor y analizarlo durante la ejecución. Esta es la principal razón por la cual estas aplicaciones pueden tener un inicio lento o experimentar retrasos después del inicio. Por lo tanto, la compilación dex2oat no proporciona mejoras significativas de rendimiento para este tipo de aplicaciones!</string>
     <string name="addin_dex2oat_helplink">https://source.android.com/devices/tech/dalvik/jit-compiler?hl=zh-cn</string>
     <string name="addin_pm_dexopt">Estrategia de instalación de dex2oat para la aplicación</string>
     <string name="addin_pm_dexopt_desc">Aplicable para Android N en adelante, ajusta la estrategia de compilación dex2oat durante la instalación de aplicaciones mediante PackageManager. Es necesario volver a configurar después de actualizar el sistema</string>
     <string name="addin_wifi">Ver las redes WiFi guardadas</string>
     <string name="addin_wifi_desc">Analizar el archivo wpa_supplicant.conf o WifiConfigStore.xml en el directorio /data/misc/wifi</string>
     <string name="addin_bpc">Optimización de la configuración para mejorar el rendimiento</string>
-    <string name="addin_bpc_desc">Cerrar algunas opciones en Performance Boost Config para evitar que la CPU se eleve frecuentemente y consuma más energía, pero se conservará la aceleración de la frecuencia al iniciar aplicaciones. Esto puede causar una ligera disminución en la experiencia. Se requiere reiniciar！</string>
+    <string name="addin_bpc_desc">Cerrar algunas opciones en Performance Boost Config para evitar que la CPU se eleve frecuentemente y consuma más energía, pero se conservará la aceleración de la frecuencia al iniciar aplicaciones. Esto puede causar una ligera disminución en la experiencia. Se requiere reiniciar!</string>
     <string name="addin_continue">Continuar</string>
 
     <string name="swap_on_close">Desactivando SWAP, esto puede llevar tiempo</string>
-    <string name="swap_current_state">"Estado actual：</string>
+    <string name="swap_current_state">"Estado actual:</string>
     <string name="swap_memory_info">Memory Info</string>
     <string name="swap_vmstat">VM Stat</string>
     <string name="swap_io">SWAP IO</string>
-    <string name="swap_swappiness_desc">Explicación：\nA mayor valor, se utilizará SWAP de manera más activa. El impacto de esta configuración en la fluidez es difícil de percibir, ajuste según sea necesario~</string>
+    <string name="swap_swappiness_desc">Explicación: \nA mayor valor, se utilizará SWAP de manera más activa. El impacto de esta configuración en la fluidez es difícil de percibir, ajuste según sea necesario</string>
     <string name="swap_swappiness">Swappiness</string>
     <string name="swap_zram">ZRAM</string>
     <string name="swap_zram_adjustment">Ajustar</string>
-    <string name="swap_zram_desc">Explicación： ZRAM es una implementación de SWAP. Cuando la memoria disponible es escasa, comprimirá parte de los datos en memoria. Sin embargo, esto puede aumentar la carga de la CPU~</string>
+    <string name="swap_zram_desc">Explicación: ZRAM es una implementación de SWAP. Cuando la memoria disponible es escasa, comprimirá parte de los datos en memoria. Sin embargo, esto puede aumentar la carga de la CPU</string>
     <string name="swap_zram_comp_options">Algoritmo de compresión</string>
     <string name="swap_zram_comp_algorithm_wran">Los cambios no han surtido efecto</string>
     <string name="swap_zram_comp_algorithm_wran_desc">ZRAM está en uso actualmente, no es posible cambiar el algoritmo de compresión en este momento。\n\nPara que los ajustes surtan efecto, por favor, haga clic en el botón 'Ajustar' debajo</string>
@@ -242,33 +242,33 @@
     <string name="swap_zram_equitable">Usar simultáneamente con ZRAM</string>
     <string name="swap_swap_preferred">Priorizar el uso antes que ZRAM</string>
     <string name="swap_use_loop">Montar como dispositivo bucle</string>
-    <string name="swap_use_loop_desc">Si puedes usar SWAP normalmente sin activar esta opción, no es necesario habilitarla。\n\nEsta opción solo debe habilitarse si no puedes iniciar SWAP o si el teléfono se bloquea después de iniciar SWAP！\n\nPor ejemplo：Para el modelo Xiaomi con SDM845 en Android 9.0, es necesario marcar esta opción para poder utilizar SWAP de manera normal</string>
-    <string name="swap_swap_desc">Explicación： Swapfile es similar a la memoria virtual en Windows, la eficiencia del intercambio está limitada por el rendimiento del disco. No utilice esta función en teléfonos con capacidad de almacenamiento limitada o espacio insuficiente para evitar un envejecimiento rápido del almacenamiento flash！</string>
+    <string name="swap_use_loop_desc">Si puedes usar SWAP normalmente sin activar esta opción, no es necesario habilitarla \n\nEsta opción solo debe habilitarse si no puedes iniciar SWAP o si el teléfono se bloquea después de iniciar SWAP! \n\nPor ejemplo：Para el modelo Xiaomi con SDM845 en Android 9.0, es necesario marcar esta opción para poder utilizar SWAP de manera normal</string>
+    <string name="swap_swap_desc">Explicación: Swapfile es similar a la memoria virtual en Windows, la eficiencia del intercambio está limitada por el rendimiento del disco. No utilice esta función en teléfonos con capacidad de almacenamiento limitada o espacio insuficiente para evitar un envejecimiento rápido del almacenamiento flash!</string>
     <string name="swap_auto_start">Arranque automático al encender (debe permitir que CyberController se inicie automáticamente)</string>
-    <string name="swap_auto_start_desc">Atención：Necesitas permitir que CyberController se inicie automáticamente para que surta efecto la próxima vez que enciendas el dispositivo！</string>
+    <string name="swap_auto_start_desc">Atención: Necesitas permitir que CyberController se inicie automáticamente para que surta efecto la próxima vez que enciendas el dispositivo!</string>
     <string name="swap_zram_stat">ZRAM Estado</string>
     <string name="swap_outside_module">Módulos externos (Magisk)</string>
-    <string name="swap_outside_module_desc">Ya has instalado el marco Magisk. Se recomienda utilizar la última versión de los módulos adicionales para mejorar la confiabilidad del control de SWAP. Las funciones principales de los módulos adicionales son las siguientes：</string>
+    <string name="swap_outside_module_desc">Ya has instalado el marco Magisk. Se recomienda utilizar la última versión de los módulos adicionales para mejorar la confiabilidad del control de SWAP. Las funciones principales de los módulos adicionales son las siguientes:</string>
     <string name="swap_outside_effect1">1.Mejorar la velocidad de restauración de la configuración de ZRAM y Swapfile después de reiniciar el teléfono</string>
     <string name="swap_outside_effect2">2.Ajustar los parámetros de LMK según la capacidad de RAM del dispositivo para mejorar la capacidad de retención en segundo plano</string>
     <string name="swap_outside_effect3">3.Ajustar los parámetros de VM para aumentar la eficacia del uso de ZRAM y Swapfile</string>
-    <string name="swap_module_install_desc">Después de descargar el módulo, ingrésalo manualmente en Magisk Manager y reinicia el teléfono！</string>
+    <string name="swap_module_install_desc">Después de descargar el módulo, ingrésalo manualmente en Magisk Manager y reinicia el teléfono!</string>
     <string name="swap_zram_stat_desc">La tasa de compresión típica de ZRAM suele estar entre el 20% y el 45%</string>
-    <string name="swap_zram_stat_format" formatted="false">Algoritmo de compresión de datos: %s\nTamaño de datos original: %s\nTamaño después de la compresión: %s\nUso de memoria física: %s\nUso máximo de memoria: %s\nLímite de uso de memoria: %s\nTasa de compresión: %s</string>
-    <string name="swap_zram_stat_format2" formatted="false">Algoritmo de compresión de datos: %s\nTamaño de datos original: %s\nTamaño después de la compresión: %s\nTasa de compresión: %s</string>
-    <string name="swap_zram_writback_stat" formatted="false">ZRAM Writeback\nBloque de escritura: %s\nEscrito: %d MB\nLecturas totales: %d MB\nEscrituras totales: %d MB</string>
+    <string name="swap_zram_stat_format" formatted="false">Algoritmo de compresión de datos: %s \nTamaño de datos original: %s \nTamaño después de la compresión: %s \nUso de memoria física: %s\ nUso máximo de memoria: %s \nLímite de uso de memoria: %s \nTasa de compresión: %s</string>
+    <string name="swap_zram_stat_format2" formatted="false">Algoritmo de compresión de datos: %s \nTamaño de datos original: %s \nTamaño después de la compresión: %s \nTasa de compresión: %s</string>
+    <string name="swap_zram_writback_stat" formatted="false">ZRAM Writeback \nBloque de escritura: %s \nEscrito: %d MB\nLecturas totales: %d MB \nEscrituras totales: %d MB</string>
     <string name="swap_zram_compact_algorithm">Algoritmo de compresión</string>
     <string name="swap_state_undefined">No creado</string>
     <string name="swap_state_created">No iniciado</string>
     <string name="swap_state_using">En uso</string>
     <string name="extra_free_kbytes">extra_free_kbytes(KB)</string>
-    <string name="extra_free_kbytes_desc">Este valor especifica cuánta memoria física adicional reservará el kernel de Linux. Cuando la memoria es escasa, comenzará a comprimir la memoria en SWAP/ZRAM de inmediato. El dispositivo se volverá notablemente lento hasta que la memoria disponible vuelva a un rango razonable.\n\nEn pocas palabras, cuanto mayor sea el valor de extra_free_kbytes, más agresiva será la recuperación de memoria (swap o matar procesos), pero se desaconseja establecer un valor demasiado alto para evitar desperdiciar memoria física y aumentar la carga en el disco/procesador！</string>
+    <string name="extra_free_kbytes_desc">Este valor especifica cuánta memoria física adicional reservará el kernel de Linux. Cuando la memoria es escasa, comenzará a comprimir la memoria en SWAP/ZRAM de inmediato. El dispositivo se volverá notablemente lento hasta que la memoria disponible vuelva a un rango razonable. \n\nEn pocas palabras, cuanto mayor sea el valor de extra_free_kbytes, más agresiva será la recuperación de memoria (swap o matar procesos), pero se desaconseja establecer un valor demasiado alto para evitar desperdiciar memoria física y aumentar la carga en el disco/procesador!</string>
     <string name="watermark_scale_factor">watermark_scale_factor</string>
-    <string name="watermark_scale_factor_desc" formatted="false">El rango de valores es de 0 a 1000, donde 1000 representa el 10%. Esto indica que hay una diferencia del 10% (de la capacidad de RAM física) entre los valores de la línea de agua de baja/mínima/alta.\n\nPor ejemplo (en mi teléfono):\npageSize=4KB\nmanaged=1951743(pages)\nmin_free_kbytes=10900(KB)\nwatermark_scale_factor=500\n\nEn este momento, el valor mínimo (min) es\n10900(KB)/4(PageSize)=2725(pages)\nlowEl valor es aproximadamente\n1951743*5%+2725≈100312(pages)\nhighEl valor es aproximadamente\n1951743*10%+2725≈197899(pages)\nNota: Final:low、highEl valor，Puede verse afectado por la influencia de extra_free_kbytes y ser más grande\n\nEn este ejemplo，\nmin=2725=10MB\nlow=100312≈392MB\nhigh=197899≈773MB\n\nSignifica，Cuando la memoria es inferior a 392MB, se iniciará el proceso de recuperación de memoria，Hasta que la memoria disponible supere los 773MB~</string>
+    <string name="watermark_scale_factor_desc" formatted="false">El rango de valores es de 0 a 1000, donde 1000 representa el 10%. Esto indica que hay una diferencia del 10% (de la capacidad de RAM física) entre los valores de la línea de agua de baja/mínima/alta. \n\nPor ejemplo (en mi teléfono): \npageSize=4KB \nmanaged=1951743(pages) \nmin_free_kbytes=10900(KB) \nwatermark_scale_factor=500 \n\nEn este momento, el valor mínimo (min) es \n10900(KB)/4(PageSize)=2725(pages) \nlowEl valor es aproximadamente \n1951743*5%+2725≈100312(pages) \nhighEl valor es aproximadamente \n1951743*10%+2725≈197899(pages) \nNota: Final:low, highEl valor, Puede verse afectado por la influencia de extra_free_kbytes y ser más grande \n\n En este ejemplo，\nmin=2725=10MB \nlow=100312≈392MB \nhigh=197899≈773MB \n\n Significa, Cuando la memoria es inferior a 392MB, se iniciará el proceso de recuperación de memoria, Hasta que la memoria disponible supere los 773MB</string>
 
     <string name="on_execute_please_wait">Realizando operación，Por favor, espera.…</string>
     <string name="please_wait">Por favor, espera…</string>
-    <string name="executed">La operación ha sido completada！</string>
+    <string name="executed">La operación ha sido completada!</string>
     <string name="file_creating">Creando archivo</string>
     <string name="zram_resizing">Está siendo ajustado, por favor, ten paciencia…</string>
     <string name="priority">Prioridad</string>
@@ -277,7 +277,7 @@
     <string name="size">Tamaño</string>
     <string name="type">Tipo</string>
     <string name="path">Ruta</string>
-    <string name="battery_low">La batería está demasiado baja, por favor, cárgala a tiempo！</string>
+    <string name="battery_low">La batería está demasiado baja, por favor, cárgala a tiempo!</string>
     <string name="sorry">Lo siento</string>
     <string name="powersave">Modo Ahorro de energía</string>
     <string name="balance">Modo Balance</string>
@@ -292,7 +292,7 @@
     <string name="warn">Advertencia</string>
     <string name="more">Más</string>
     <string name="not_support_config">No se ha encontrado ningún script de configuración de modo disponible</string>
-    <string name="not_support_config_desc">La aplicación no incluye un script de configuración de rendimiento diseñado para tu teléfono. Puedes seleccionar "Obtener script en línea" para ver si hay una configuración disponible para descargar que sea adecuada para tu dispositivo, o seleccionar "Más información" para ver tutoriales de configuración personalizada！</string>
+    <string name="not_support_config_desc">La aplicación no incluye un script de configuración de rendimiento diseñado para tu teléfono. Puedes seleccionar "Obtener script en línea" para ver si hay una configuración disponible para descargar que sea adecuada para tu dispositivo, o seleccionar "Más información" para ver tutoriales de configuración personalizada!</string>
     <string name="first_start_select_config">Primera vez que utilizas la aplicación, elige tus preferencias de configuración</string>
     <string name="config_online_options">Selecciona la biblioteca de scripts en línea</string>
     <string name="online_config_v1">yc9559customv1</string>
@@ -357,7 +357,7 @@
     <string name="title_activity_trigger">Desencadenador</string>
     <string name="title_activity_file_selector">Seleccione el archivo</string>
     <string name="title_activity_folder_selector">Por favor, mantén presionado para seleccionar la carpeta</string>
-    <string name="config_save_fail">Error al guardar la configuración！</string>
+    <string name="config_save_fail">Error al guardar la configuración!</string>
     <string name="boot_success">La configuración de inicio automático se ha completado</string>
     <string name="notice_channel_boot">Mensaje de inicio automático</string>
     <string name="notice_channel_task">CyberController Tarea programada</string>
@@ -372,22 +372,22 @@
     <string name="boot_lmk">Ajustando los parámetros de Low Memory Killer (LMK)…</string>
     <string name="boot_freeze">Congelando aplicaciones en segundo plano…</string>
 
-    <string name="flash_confirm">Confirmar la instalación？</string>
+    <string name="flash_confirm">Confirmar la instalación?</string>
 
     <string name="scene_addin_miss">Configuración avanzada: componente faltante</string>
-    <string name="scene_addin_miss_desc">Por favor, desde...CyberController Descargar e instalar“CyberController Configuración avanzada”，Y establecerlo para permitir el inicio automático en segundo plano！</string>
-    <string name="scene_addin_sync_fail">Desde...“CyberController Configuración avanzada”Fallo al sincronizar el componente con la configuración de Xposed！</string>
+    <string name="scene_addin_miss_desc">Por favor, desde...CyberController Descargar e instalar"CyberController Configuración avanzada",Y establecerlo para permitir el inicio automático en segundo plano!</string>
+    <string name="scene_addin_sync_fail">Desde..."CyberController Configuración avanzada"Fallo al sincronizar el componente con la configuración de Xposed!</string>
     <string name="scene_install_autoclick">Haga clic en "Instalar"</string>
     <string name="scene_install_autoclick_desc">Automáticamente haciendo clic en "Siguiente" e "Instalar" al instalar aplicaciones de terceros</string>
     <string name="scene_install_skip_ad">Omitir anuncios</string>
-    <string name="scene_install_skip_ad_desc">Automáticamente hacer clic en el botón "Saltar" puede ayudarte a omitir algunos anuncios de pantalla completa, pero puede disminuir el rendimiento del sistema y podría haber errores al hacer clic\n* Es recomendable utilizar esto solo en entornos de chino simplificado para obtener mejores resultados</string>
-    <string name="scene_install_skip_ad_precise">Omitir anuncios+</string>
+    <string name="scene_install_skip_ad_desc">Automáticamente hacer clic en el botón "Saltar" puede ayudarte a omitir algunos anuncios de pantalla completa, pero puede disminuir el rendimiento del sistema y podría haber errores al hacer clic \n* Es recomendable utilizar esto solo en entornos de chino simplificado para obtener mejores resultados</string>
+    <string name="scene_install_skip_ad_precise">Omitir anuncios</string>
     <string name="scene_install_skip_ad_precise_desc">Utilizar datos de botones almacenados en la nube para hacer clic en botones de "saltar" específico</string>
-    <string name="scene_install_skip_ad_warn">El tráfico de anuncios es una fuente importante de ingresos para algunos desarrolladores/comerciantes de software. Si no tienes prisa, se sugiere navegar y hacer clic en contenido publicitario que te interese. ^_^</string>
+    <string name="scene_install_skip_ad_warn">El tráfico de anuncios es una fuente importante de ingresos para algunos desarrolladores/comerciantes de software. Si no tienes prisa, se sugiere navegar y hacer clic en contenido publicitario que te interese</string>
     <string name="perf_opt">Respuesta dinámica</string>
-    <string name="permission_modify_fail">Error al modificar los permisos！</string>
-    <string name="scene_need_write_sys_settings">Por favor, autoriza primero permitir que "CyberController" modifique la configuración del sistema！</string>
-    <string name="start_app_fail">Error al iniciar la aplicación！</string>
+    <string name="permission_modify_fail">Error al modificar los permisos!</string>
+    <string name="scene_need_write_sys_settings">Por favor, autoriza primero permitir que "CyberController" modifique la configuración del sistema!</string>
+    <string name="start_app_fail">Error al iniciar la aplicación!</string>
     <string name="scene_need_notic_listing">Por favor, autoriza primero permitir a "CyberController" el uso de permisos de notificación！</string>
 
     <string name="scene_create_shortcut_action">com.omarea.vtools.CreateShortcut</string>
@@ -397,8 +397,8 @@
     <string name="scene_reset_compile">com.omarea.vtools.ResetCompile</string>
 
     <string name="scene_contract_title">Declaración de riesgos</string>
-    <string name="scene_contract">CyberController Es una aplicación dirigida a entusiastas de la personalización del dispositivo. Se requiere una excelente visión, habilidades de comprensión de lectura y una mentalidad positiva para utilizarla。\n\nDurante el uso, pueden ocurrir errores imprevistos que resulten en pérdida de datos o incluso dificultades para arrancar normalmente。\n\nEs imprescindible no utilizar esta aplicación en tu dispositivo utilizado para el trabajo o que contenga datos importantes, para evitar posibles pérdidas！\n\nDurante el uso, es crucial leer detenidamente los mensajes de advertencia y operar con precaución. Evita ajustar opciones de funciones que no entiendas fácilmente！\n\nAdemás, el autor de esta aplicación no garantiza proporcionar asistencia de uso ni sugerencias de recuperación de fallos！</string>
-    <string name="permission_float">Por favor, primero otorga permisos para mostrar ventanas flotantes a "CyberController"！</string>
+    <string name="scene_contract">CyberController Es una aplicación dirigida a entusiastas de la personalización del dispositivo. Se requiere una excelente visión, habilidades de comprensión de lectura y una mentalidad positiva para utilizarla. \n\nDurante el uso, pueden ocurrir errores imprevistos que resulten en pérdida de datos o incluso dificultades para arrancar normalmente. \n\nEs imprescindible no utilizar esta aplicación en tu dispositivo utilizado para el trabajo o que contenga datos importantes, para evitar posibles pérdidas! \n\nDurante el uso, es crucial leer detenidamente los mensajes de advertencia y operar con precaución. Evita ajustar opciones de funciones que no entiendas fácilmente! \n\nAdemás, el autor de esta aplicación no garantiza proporcionar asistencia de uso ni sugerencias de recuperación de fallos!</string>
+    <string name="permission_float">Por favor, primero otorga permisos para mostrar ventanas flotantes a "CyberController"!</string>
     <string name="lmk_optimize_desc">Permitir que "CyberController" ajuste automáticamente los parámetros de Low Memory Killer (LMK) según la capacidad de tu RAM para mejorar la capacidad en segundo plano (puede causar ralentizaciones en momentos de baja memoria). Si deseas revertir esto, desactiva esta opción y reinicia tu teléfono. Si deseas que se configure automáticamente después del arranque, permite que la caja de herramientas se inicie automáticamente</string>
     <string name="lmk_optimize">Optimización de baja memoria</string>
     <string name="low_memory_killer">Low Memory Killer</string>
@@ -409,20 +409,20 @@
 
     <string name="freeze_shortcut_lost">La atajo (o acceso directo) se ha perdido</string>
     <string name="freeze_shortcut_lost_desc">Sí, por favor, vuelve a crear los accesos directos para las aplicaciones que se han agregado al modo de rendimiento</string>
-    <string name="freeze_disable_completed">Aplicaciones congeladas ×</string>
-    <string name="freeze_enable_completed">Aplicaciones descongeladas √</string>
+    <string name="freeze_disable_completed">Aplicaciones congeladas</string>
+    <string name="freeze_enable_completed">Aplicaciones descongeladas</string>
     <string name="freeze_shortcut_add_success">Creación completada</string>
     <string name="freeze_shortcut_add_fail">Fallo en la creación</string>
     <string name="freeze_batch_add">Añadiendo accesos directos en lote</string>
-    <string name="freeze_batch_add_wran">La adición de accesos directos en lote puede fallar. Puedes mantener presionado el ícono de la aplicación y enviar un solo acceso directo al escritorio！</string>
-    <string name="freeze_entrance_changed">√ El estado de visualización del ícono ha sido cambiado</string>
-    <string name="freeze_shortcut_delete_desc">Es posible que necesites eliminar manualmente los accesos directos que se han añadido！</string>
+    <string name="freeze_batch_add_wran">La adición de accesos directos en lote puede fallar. Puedes mantener presionado el ícono de la aplicación y enviar un solo acceso directo al escritorio!</string>
+    <string name="freeze_entrance_changed">El estado de visualización del ícono ha sido cambiado</string>
+    <string name="freeze_shortcut_delete_desc">Es posible que necesites eliminar manualmente los accesos directos que se han añadido!</string>
     <string name="wallpaper_rw_permission">Se requiere permisos de "lectura/escritura en almacenamiento local" para utilizar el fondo de pantalla del sistema como fondo de la aplicación</string>
 
     <string name="shortcut_create_fail">Fallo en la creación del acceso directo</string>
     <string name="shortcut_create_success">Solicitud de creación de acceso directo enviada.</string>
     <string name="shortcut_create">Añadiendo acceso directo</string>
-    <string name="shortcut_create_desc">Deseas agregar "%s" al escritorio para un acceso rápido？</string>
+    <string name="shortcut_create_desc">Deseas agregar "%s" al escritorio para un acceso rápido?</string>
     <string name="ushortcut_nsupported">Esa función no admite la adición de accesos directos</string>
     <string name="btn_copy_output">Copiando la salida</string>
     <string name="copy_success">Copiado con éxito</string>
@@ -439,10 +439,10 @@
     <string name="kr_page_load_success">Éxito en la carga de la página</string>
     <string name="kr_auto_run_item_losted">La entrada especificada se ha perdido</string>
 
-    <string name="magisk_install_desc">CyberController ahora puede realizar la mayoría de las modificaciones del sistema a través de módulos de Magisk. Sin embargo, debes dar tu consentimiento para que CyberController instale automáticamente los módulos adicionales en tu teléfono y reinicie (se recomienda)！</string>
+    <string name="magisk_install_desc">CyberController ahora puede realizar la mayoría de las modificaciones del sistema a través de módulos de Magisk. Sin embargo, debes dar tu consentimiento para que CyberController instale automáticamente los módulos adicionales en tu teléfono y reinicie (se recomienda)!</string>
     <string name="magisk_install_title">Módulos adicionales de CyberController</string>
     <string name="cache_recycle">Reciclar la memoria caché</string>
-    <string name="dynamic_auto_disabled">No se detectó el archivo de configuración. La respuesta dinámica se ha desactivado automáticamente！</string>
+    <string name="dynamic_auto_disabled">No se detectó el archivo de configuración. La respuesta dinámica se ha desactivado automáticamente!</string>
     <string name="app_donate">donar</string>
     <string name="app_nav">Función</string>
     <string name="app_home">Vista general</string>
@@ -488,6 +488,6 @@
     <string name="power_fastboot_cmd">sync;reboot bootloader;</string>
     <string name="power_recovery_cmd">sync;reboot recovery;</string>
     <string name="power_emergency_cmd">sync;reboot edl;</string>
-    <string name="miui_thermal_desc">Haz clic en el menú en la esquina superior derecha, selecciona y edita el archivo de control de temperatura. Después de editar, haz clic en guardar~\n\nAviso: Con las continuas actualizaciones del sistema Android, modificar la partición del sistema se vuelve cada vez más difícil. Puede que no sea posible guardar las modificaciones con éxito, o se restaure automáticamente después de reiniciar. Se recomienda utilizar módulos Magisk para realizar cambios en la temperatura！\n\nLos archivos de control de temperatura suelen estar en el directorio /system/etc o /vendor/etc, con nombres que comienzan con "thermal" y tienen la extensión ".conf"</string>
-    <string name="monitor_process_unsupported">El administrador de procesos no es compatible actualmente con tu teléfono！</string>
+    <string name="miui_thermal_desc">Haz clic en el menú en la esquina superior derecha, selecciona y edita el archivo de control de temperatura. Después de editar, haz clic en guardar \n\nAviso: Con las continuas actualizaciones del sistema Android, modificar la partición del sistema se vuelve cada vez más difícil. Puede que no sea posible guardar las modificaciones con éxito, o se restaure automáticamente después de reiniciar. Se recomienda utilizar módulos Magisk para realizar cambios en la temperatura! \n\nLos archivos de control de temperatura suelen estar en el directorio /system/etc o /vendor/etc, con nombres que comienzan con "thermal y tienen la extensión ".conf"</string>
+    <string name="monitor_process_unsupported">El administrador de procesos no es compatible actualmente con tu teléfono!</string>
 </resources>
