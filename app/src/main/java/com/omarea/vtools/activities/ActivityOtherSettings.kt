@@ -56,9 +56,29 @@ class ActivityOtherSettings : ActivityBase() {
                 // Puedes usar Locale.setDefault(Locale("es")) u otras opciones
             }
 
-            override fun onNothingSelected(adapterView: AdapterView<*>?) {
-                // Acciones si no se selecciona ningún idioma
-            }
+            override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
+    val selectedLanguage = languages[position]
+    
+    // Implementa la lógica para cambiar el idioma según la selección
+    when (selectedLanguage) {
+        "Default" -> {
+            // Lógica para establecer el idioma predeterminado
+            Locale.setDefault(Locale.getDefault())
+        }
+        "Español" -> {
+            // Lógica para establecer el idioma español
+            Locale.setDefault(Locale("es"))
+        }
+        // Agrega más casos según necesites para otros idiomas
+    }
+
+    // Recrea la actividad para aplicar el cambio de idioma
+    recreate()
+}
+
+override fun onNothingSelected(adapterView: AdapterView<*>?) {
+    // Acciones si no se selecciona ningún idioma
+}
         }
         // Fin de añadir Spinner
 
