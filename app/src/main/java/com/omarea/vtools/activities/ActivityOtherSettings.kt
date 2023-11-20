@@ -21,7 +21,6 @@ import com.omarea.store.SpfConfig
 import com.omarea.utils.CommonCmds
 import com.omarea.vtools.R
 import kotlinx.android.synthetic.main.activity_other_settings.*
-import java.util.Locale
 
 class ActivityOtherSettings : ActivityBase() {
     private lateinit var spf: SharedPreferences
@@ -53,12 +52,8 @@ class ActivityOtherSettings : ActivityBase() {
         spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 val selectedLanguage = languages[position]
-
                 // Implementa la lógica para cambiar el idioma según la selección
-                setLocale(selectedLanguage)
-
-                // Recrea la actividad para aplicar el cambio de idioma
-                recreate()
+                // Puedes usar Locale.setDefault(Locale("es")) u otras opciones
             }
 
             override fun onNothingSelected(adapterView: AdapterView<*>?) {
@@ -108,26 +103,12 @@ class ActivityOtherSettings : ActivityBase() {
         }
     }
 
-    private fun checkPermission(context: Context, permission: String): Boolean =
-        PermissionChecker.checkSelfPermission(context, permission) == PermissionChecker.PERMISSION_GRANTED
+    private fun checkPermission(context: Context, permission: String): Boolean = PermissionChecker.checkSelfPermission(context, permission) == PermissionChecker.PERMISSION_GRANTED
 
     private fun hasRWPermission(): Boolean {
         return checkPermission(this.applicationContext, Manifest.permission.READ_EXTERNAL_STORAGE)
-                && checkPermission(this.applicationContext, Manifest.permission.WRITE_EXTERNAL_STORAGE)
-    }
-
-    private fun setLocale(language: String) {
-        when (language) {
-            "Default" -> {
-                // Lógica para establecer el idioma predeterminado
-                Locale.setDefault(Locale.getDefault())
-            }
-            "Español" -> {
-                // Lógica para establecer el idioma español
-                Locale.setDefault(Locale("es"))
-            }
-            // Agrega más casos según necesites para otros idiomas
-        }
+                &&
+                checkPermission(this.applicationContext, Manifest.permission.WRITE_EXTERNAL_STORAGE)
     }
 
     fun onThemeClick(view: View) {
@@ -144,6 +125,7 @@ class ActivityOtherSettings : ActivityBase() {
                 this.recreate()
             }
         }
+
     }
 
     override fun onDestroy() {
