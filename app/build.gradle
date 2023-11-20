@@ -14,6 +14,12 @@ android {
             storePassword 'asdf1234'
         }
     }
+android {
+     compileOptions {
+             sourceCompatibility 1.8
+             targetCompatibility 1.8
+               }
+    }
     compileSdkVersion 30
     defaultConfig {
         resConfigs "zh"
