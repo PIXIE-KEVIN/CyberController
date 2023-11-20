@@ -50,15 +50,24 @@ class ActivityOtherSettings : ActivityBase() {
         spinnerLanguage.adapter = adapter
 
         spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                val selectedLanguage = languages[position]
-                // Implementa la lógica para cambiar el idioma según la selección
-                // Puedes usar Locale.setDefault(Locale("es")) u otras opciones
-            }
+    override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
+               val selectedLanguage = languages[position]
 
-            override fun onNothingSelected(adapterView: AdapterView<*>?) {
-                // Acciones si no se selecciona ningún idioma
-            }
+               // Configurar el Locale según el idioma seleccionado
+               val locale = when (selectedLanguage) {
+                 "Español" -> Locale("es")
+               // Agrega más casos según los idiomas que tengas en el array
+               else -> Locale.getDefault() // Idioma predeterminado si no coincide con ninguno
+         }
+
+               // Actualizar la configuración del idioma
+              val config = Configuration(resources.configuration)
+                 config.setLocale(locale)
+                 resources.updateConfiguration(config, resources.displayMetrics)
+
+               // Reiniciar la actividad para aplicar el cambio de idioma
+                 recreate()
+          }
         }
         // Fin de añadir Spinner
 
