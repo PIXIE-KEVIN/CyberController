@@ -53,19 +53,9 @@ class ActivityOtherSettings : ActivityBase() {
         spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 val selectedLanguage = languages[position]
+
                 // Implementa la lógica para cambiar el idioma según la selección
-                // Puedes usar Locale.setDefault(Locale("es")) u otras opciones
-                when (selectedLanguage) {
-                    "Default" -> {
-                        // Lógica para establecer el idioma predeterminado
-                        Locale.setDefault(Locale.getDefault())
-                    }
-                    "Español" -> {
-                        // Lógica para establecer el idioma español
-                        Locale.setDefault(Locale("es"))
-                    }
-                    // Agrega más casos según necesites para otros idiomas
-                }
+                setLocale(selectedLanguage)
 
                 // Recrea la actividad para aplicar el cambio de idioma
                 recreate()
@@ -118,12 +108,26 @@ class ActivityOtherSettings : ActivityBase() {
         }
     }
 
-    private fun checkPermission(context: Context, permission: String): Boolean = PermissionChecker.checkSelfPermission(context, permission) == PermissionChecker.PERMISSION_GRANTED
+    private fun checkPermission(context: Context, permission: String): Boolean =
+        PermissionChecker.checkSelfPermission(context, permission) == PermissionChecker.PERMISSION_GRANTED
 
     private fun hasRWPermission(): Boolean {
         return checkPermission(this.applicationContext, Manifest.permission.READ_EXTERNAL_STORAGE)
-                &&
-                checkPermission(this.applicationContext, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                && checkPermission(this.applicationContext, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+    }
+
+    private fun setLocale(language: String) {
+        when (language) {
+            "Default" -> {
+                // Lógica para establecer el idioma predeterminado
+                Locale.setDefault(Locale.getDefault())
+            }
+            "Español" -> {
+                // Lógica para establecer el idioma español
+                Locale.setDefault(Locale("es"))
+            }
+            // Agrega más casos según necesites para otros idiomas
+        }
     }
 
     fun onThemeClick(view: View) {
