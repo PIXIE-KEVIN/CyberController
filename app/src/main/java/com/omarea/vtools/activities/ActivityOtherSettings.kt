@@ -7,6 +7,9 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
+import android.widget.ArrayAdapter
+import android.widget.AdapterView
+import android.widget.Spinner
 import android.widget.Switch
 import androidx.core.content.PermissionChecker
 import com.omarea.common.shell.KeepShellPublic
@@ -37,6 +40,27 @@ class ActivityOtherSettings : ActivityBase() {
         setContentView(R.layout.activity_other_settings)
 
         setBackArrow()
+
+        // Añadir Spinner para cambio de idioma
+        val languages = resources.getStringArray(R.array.languages)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, languages)
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+
+        val spinnerLanguage = findViewById<Spinner>(R.id.spinnerLanguage)
+        spinnerLanguage.adapter = adapter
+
+        spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                val selectedLanguage = languages[position]
+                // Implementa la lógica para cambiar el idioma según la selección
+                // Puedes usar Locale.setDefault(Locale("es")) u otras opciones
+            }
+
+            override fun onNothingSelected(adapterView: AdapterView<*>?) {
+                // Acciones si no se selecciona ningún idioma
+            }
+        }
+        // Fin de añadir Spinner
 
         settings_disable_selinux.setOnClickListener {
             if (settings_disable_selinux.isChecked) {
