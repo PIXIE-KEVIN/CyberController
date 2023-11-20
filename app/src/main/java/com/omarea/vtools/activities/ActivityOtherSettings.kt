@@ -19,6 +19,8 @@ import com.omarea.data.EventType
 import com.omarea.shell_utils.AppErrorLogcatUtils
 import com.omarea.store.SpfConfig
 import com.omarea.utils.CommonCmds
+import java.util.Locale
+import android.content.res.Configuration
 import com.omarea.vtools.R
 import kotlinx.android.synthetic.main.activity_other_settings.*
 
