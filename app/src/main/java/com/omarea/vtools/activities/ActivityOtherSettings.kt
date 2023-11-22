@@ -44,17 +44,17 @@ class ActivityOtherSettings : ActivityBase() {
         setBackArrow()
 
         // Obtener el array de IDs de los idiomas desde configs.xml
-            val languageIds = resources.getStringArray(R.array.languages)
+           val languageIds = resources.getStringArray(R.array.languages)
 
 // Crear una lista para almacenar los nombres de los idiomas
-            val languageNames = ArrayList<String>()
+val languageNames = ArrayList<String>()
 
 // Iterar sobre los IDs de los idiomas y obtener los nombres correspondientes
-         for (languageId in languageIds) {
-           val resourceId = resources.getIdentifier(languageId, "string", packageName)
-              if (resourceId != 0) {
-           val languageName = getString(resourceId)
-               languageNames.add(languageName)
+for (languageId in languageIds) {
+    val resourceId = resources.getIdentifier(languageId.toLowerCase(Locale.ROOT), "string", packageName)
+    if (resourceId != 0) {
+        val languageName = getString(resourceId)
+        languageNames.add(languageName)
     }
 }
 
