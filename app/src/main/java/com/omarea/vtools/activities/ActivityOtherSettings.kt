@@ -43,47 +43,49 @@ class ActivityOtherSettings : ActivityBase() {
 
         setBackArrow()
 
-        // Añadir Spinner para cambio de idioma
-        val languageIds = resources.getStringArray(R.array.languages)
-        val languageNames = ArrayList<String>()
+        // Obtener el array de IDs de los idiomas desde configs.xml
+            val languageIds = resources.getStringArray(R.array.languages)
 
-        // Itera sobre los idiomas y agrega los nombres correspondientes
-        for (languageId in languageIds) {
-            val resourceId = resources.getIdentifier(languageId, "string", packageName)
-            if (resourceId != 0) {
-                val languageName = getString(resourceId)
-                languageNames.add(languageName)
-            }
+// Crear una lista para almacenar los nombres de los idiomas
+            val languageNames = ArrayList<String>()
+
+// Iterar sobre los IDs de los idiomas y obtener los nombres correspondientes
+         for (languageId in languageIds) {
+           val resourceId = resources.getIdentifier(languageId, "string", packageName)
+              if (resourceId != 0) {
+           val languageName = getString(resourceId)
+               languageNames.add(languageName)
+    }
+}
+
+// Utilizar los nombres de los idiomas en lugar de los IDs definidos en el archivo de recursos
+           val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, languageNames.toTypedArray())
+             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+
+            val spinnerLanguage = findViewById<Spinner>(R.id.spinnerLanguage)
+              spinnerLanguage.adapter = adapter
+
+              spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+                override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
+              val selectedLanguage = languageIds[position]
+
+        // Configurar el Locale según el idioma seleccionado
+            val locale = when (selectedLanguage) {
+            "Español" -> Locale("es")
+            // Agrega más casos según los idiomas que tengas en el array
+            else -> Locale.getDefault() // Idioma predeterminado si no coincide con ninguno
         }
 
-        // Utiliza los nombres de los idiomas en lugar de los definidos en el archivo de recursos
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, languageNames.toTypedArray())
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        // Actualizar la configuración del idioma
+            val config = Configuration(resources.configuration)
+              config.setLocale(locale)
+              resources.updateConfiguration(config, resources.displayMetrics)
 
-        val spinnerLanguage = findViewById<Spinner>(R.id.spinnerLanguage)
-        spinnerLanguage.adapter = adapter
+        // Reiniciar la actividad para aplicar el cambio de idioma
+              recreate()
+    }
 
-        spinnerLanguage.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                val selectedLanguage = languageIds[position]
-
-                // Configurar el Locale según el idioma seleccionado
-                val locale = when (selectedLanguage) {
-                    "Español" -> Locale("es")
-                    // Agrega más casos según los idiomas que tengas en el array
-                    else -> Locale.getDefault() // Idioma predeterminado si no coincide con ninguno
-                }
-
-                // Actualizar la configuración del idioma
-                val config = Configuration(resources.configuration)
-                config.setLocale(locale)
-                resources.updateConfiguration(config, resources.displayMetrics)
-
-                // Reiniciar la actividad para aplicar el cambio de idioma
-                recreate()
-            }
-
-            override fun onNothingSelected(p0: AdapterView<*>?) {
+         override fun onNothingSelected(p0: AdapterView<*>?) {
                 // No es necesario hacer nada aquí
             }
         }
