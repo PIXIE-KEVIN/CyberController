@@ -1,7 +1,0 @@
-<resources>
-    <string-array name="languages">
-        <item>Default</item>
-        <item>Español</item>
-        <!-- Agrega más idiomas según sea necesario -->
-    </string-array>
-</resources>

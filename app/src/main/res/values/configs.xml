@@ -170,6 +170,11 @@
         <item>VOG-TL00@HUAWEI@HUAWEI@VOG-TL00@VOG-TL00</item>
         <item>GM1910@ONEPLUS@ONEPLUS@GM1910@GM1910</item>
     </string-array>
+    <string-array name="languages">
+        <item>Default</item>
+        <item>Español</item>
+        <!-- Agrega más idiomas según sea necesario -->
+    </string-array>
 
     <!--待机模式强制排除名单-->
     <string-array name="scene_standby_white_list">
