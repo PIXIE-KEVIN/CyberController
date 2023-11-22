@@ -32,13 +32,17 @@
                     android:text="@string/settings_disable_selinux_desc" />
   
                 <Spinner
-                    android:id="@+id/spinnerLanguage"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:entries="@array/languages"
-                    android:prompt="@string/select_language"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"/>
+    android:id="@+id/spinnerLanguage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:entries="@array/languages"
+    android:prompt="@string/select_language"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:spinnerMode="dropdown" <!-- Agregado: Modo de desplegable del spinner -->
+    android:gravity="start" <!-- Agregado: Alineación del texto del spinner -->
+    android:layoutDirection="locale" <!-- Agregado: Dirección del texto según la configuración regional -->
+    android:textAlignment="viewStart" /> <!-- Agregado: Alineación del texto del spinner -->
   
             </LinearLayout>
 
