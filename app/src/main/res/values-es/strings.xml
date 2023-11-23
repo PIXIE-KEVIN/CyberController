@@ -2,6 +2,7 @@
 <resources>
 <string name="mtrl_picker_invalid_format_use">Uso: %1$s</string>
 <string name="character_counter_content_description">Los caracteres ingresaron %1$d de %2$d</string>
+<string name="title_activity_file_selector">Seleccione el archivo</string>
 <string name="copy_fail">Falla de copia</string>
 <string name="extra_free_kbytes">extra_free_kbytes (KB)</string>
 <string name="battery_status_full">【Estar Lleno】</string>
@@ -13,11 +14,12 @@
 <string name="abc_menu_function_shortcut_label">Función+</string>
 <string name="app_chooser_search_hint">Ingrese el nombre de la aplicación/nombre del paquete para la búsqueda</string>
 <string name="menu_scene_mode">Modo escena</string>
-<string name="mtrl_picker_date_header_title">Seleccione una fecha</string>
+<string name="mtrl_picker_date_header_title">Seleccione fecha</string>
 <string name="boot_use_powercfg">Configuración de programación de aplicaciones...</string>
 <string name="btn_skip">salte por encima</string>
 <string name="power_recovery_cmd">sincronización; recuperación de reinicio;</string>
 <string name="addin_miui_hide_search">MIUI9 Vaya a la búsqueda del centro de notificaciones</string>
+<string name="toolkit_install_path">kit de herramientas</string>
 <string name="core_control_helpinfo">Algunos teléfonos móviles tienen un mecanismo de ajuste dinámico de parámetros de CPU, que hará que los parámetros personalizados fallarán rápidamente. Además, el control de temperatura también limitará su frecuencia de CPU.</string>
 <string name="shortcut_p4">Modo de velocidad</string>
 <string name="shortcut_p3">Patrón de rendimiento</string>
@@ -67,11 +69,11 @@ Durante el proceso de uso, debe leer las indicaciones cuidadosamente y operar cu
 <string name="fast">Modo de velocidad</string>
 <string name="freeze_shortcut_add_fail">Fallo al crear</string>
 <string name="btn_cancel">Cancelar</string>
-<string name="swap_module_download_url">https://vtools.oss-cn-beijing.aliyuncs.com/addin/swap-controller-3.3.3.zip</string>
+<string name="swap_module_download_url">https://vtools.oss-cn-beijing.aliyuncs.com/addin/swap-controller-3.3.2.zip</string>
 <string name="battery_night_mode_desc">"Cuando estás cerca de carga completa a lenta 
 
 Y reducir activamente la velocidad de carga por la noche"</string>
-<string name="addin_flyme_static_blur_desc">El efecto de desenfoque de tiempo real del Centro de notificaciones FlyMe6 Drop -down está desactivado para reducir la tartamudez de la máquina de bajo nivel de Mertu en la reproducción del juego o el video, lo que puede ahorrar energía y necesidad de reiniciar.</string>
+<string name="addin_flyme_static_blur_desc">El efecto de desenfoque de tiempo real del Centro de notificaciones de Drop -Down de FlyMe6 está deshabilitado para reducir la tartamudez de la máquina de bajo envejecimiento de Mertu en la reproducción del juego o el video, que puede ahorrar energía y necesidad de reiniciar.</string>
 <string name="battery_view_history">Ver registro</string>
 <string name="kr_invalid_color">El valor de color de entrada no es válido, solo el formato similar a #FF88AA00</string>
 <string name="kr_script_task_finished">Fin</string>
@@ -85,10 +87,12 @@ Y reducir activamente la velocidad de carga por la noche"</string>
 <string name="menu_swap">Configuración de intercambio</string>
 <string name="mtrl_picker_text_input_date_range_end_hint">Fecha final</string>
 <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+<string name="material_motion_easing_standard">cúbico-bezier (0.4, 0.0, 0.2, 1.0)</string>
 <string name="scene_addin_miss">Falta el componente de configuración senior</string>
 <string name="power_hot_reboot_cmd">Sync; AM reiniciar || BusyBox Killall System_Server;</string>
 <string name="fast_short">Velocidad</string>
 <string name="mtrl_picker_toggle_to_day_selection">Toque para cambiar a seleccionar un día</string>
+<string name="material_hour_suffix">%1$s o punto</string>
 <string name="abc_capital_on">EN</string>
 <string name="scene_install_autoclick">Instalar clic</string>
 <string name="kr_write_external_storage">Necesita leer y escribir permisos de almacenamiento externos</string>
@@ -104,19 +108,23 @@ Y reducir activamente la velocidad de carga por la noche"</string>
 <string name="kr_download_completed">Descarga de archivos correctamente</string>
 <string name="shortcut_disabled">Indisponible</string>
 <string name="backup_action_desc_rec">Respalde la recuperación de exportación actual en el uso actual en IMG, copie a/sdcard/recovery.img</string>
+<string name="system_scene_timing_task">Mi tarea de tiempo</string>
 <string name="btn_execute">implementar</string>
 <string name="battery_auto_boot_desc">Ok, si desea activar automáticamente esta función después de reiniciar el teléfono, ¡permita que la escena se inicie!</string>
 <string name="btn_retry">Rever</string>
 <string name="mtrl_picker_cancel">@android:string/cancel</string>
 <string name="kr_page_loading">Configuración de análisis</string>
 <string name="battery_title_desc1">Si necesita usar la función \"Ajuste de velocidad de carga\" y \"protección de carga\", ¡mantenga el fondo de la escena ejecutado!</string>
+<string name="system_scene_battery_right">Más alto que el poder</string>
 <string name="swap_zram_stat_format2" formatted="false">"Algoritmo de compresión de datos: %s 
 Tamaño de datos original: %s 
 El tamaño después de la compresión: %s 
 Tasa de compresión: %s"</string>
 <string name="battery_status_discharging">【Sin alterar】</string>
 <string name="swap_zram_comp_options">Algoritmo de compresión</string>
+<string name="system_scene_task_canceled">La tarea ha sido cancelada</string>
 <string name="powersave_short">Ahorro de energía</string>
+<string name="title_activity_timing_task">Tarea de tiempo</string>
 <string name="battery_exec_desc">"La escena cambiará el cambio de velocidad en diferentes momentos según su elección. Las diferencias específicas son las siguientes 
 
 Reduzca la velocidad: establezca la velocidad de carga solo cuando la conexión del cargador y el porcentaje del cambio de energía 
@@ -136,11 +144,13 @@ Nota: El uso a largo plazo puede hacer que la pantalla de potencia se pierda pre
 <string name="balance_short">equilibrado</string>
 <string name="btn_hide">esconder</string>
 <string name="swap_zram_stat_desc">La tasa de compresión de ZRAM suele ser entre 20 y 45%</string>
+<string name="material_motion_easing_decelerated">Cúbico-Bezier (0.0, 0.0, 0.2, 1.0)</string>
 <string name="dialog_addin_device_inner">Plantilla preestablecida</string>
 <string name="notice_channel_boot">Aviso de auto -comienzo</string>
 <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12C1.73,4.39 6,7.5 11,7.5s9.27, -3.11 11, -7.5c -1.73, -4.39-6, -7.5 -11, -7.5zm12, , 17c -2.76,0 -5, -2.24 -5, -5s2.24, -5 5, -5 5,2.24 5,5 -2.24,5 -5zm12,9c -1.66,0 -3,1.34 -3 3S1 .34,3 3,3 3, -1.34 3, -3 -1.34, -3 -3, -3z</string>
 <string name="menu_img">Respaldo</string>
 <string name="btn_resume">recuperar</string>
+<string name="material_hour_selection">Hora de selección</string>
 <string name="extra_free_kbytes_desc">"Este valor especifica cuánta memoria física será mantenida por el núcleo de Linux. Cuando la memoria sea insuficiente, comenzará inmediatamente a comprimir la memoria para cambiar/zram. Antes de que la memoria disponible se recupere a un rango razonable 
 
 En pocas palabras, cuanto más grande sea más extra_free_kbytes, más positivo es la recuperación de la memoria (intercambio o proceso de matar), pero no se recomienda configurar demasiado, para no desperdiciar memoria física y aumentar la carga del disco/ ¡procesador!"</string>
@@ -166,6 +176,7 @@ Aplicar archivos de copia de seguridad en/sdcard/backups/aplicaciones (el sistem
 <string name="balance">Modo de equilibrio</string>
 <string name="dialog_addin_device_warn">"Para la información del modelo, ¡no ingrese símbolos especiales! 
 Compatible con el código de modelo del módulo [Variable de aplicación], ¡Realice esta ventana después de copiar!"</string>
+<string name="material_minute_suffix">%1$s minutos</string>
 <string name="kr_slice_script_result">Contenido de salida de script</string>
 <string name="accessibility_service_description">"Servicio mejorado de escena 
 Debe activar este servicio para usar las siguientes funciones: 
@@ -179,12 +190,15 @@ Debe activar este servicio para usar las siguientes funciones:
 <string name="kr_page_after_load">El análisis de configuración está completo</string>
 <string name="order">orden</string>
 <string name="restore_action_desc_boot">Elija en Boot.img</string>
+<string name="material_timepicker_clock_mode_description">Cambie al modo de reloj para la entrada de tiempo.</string>
+<string name="material_timepicker_select_time">Tiempo de selección</string>
 <string name="menu_applictions">Gestión de aplicaciones</string>
 <string name="dialog_addin_device_desc">"Después de la modificación, puede hacer clic en \"Restaurar\"-> \"Confirmar\" para restaurar el modelo antes de la modificación. La escena desinstalante hará que la información del modelo de copia de seguridad se pierda. ¡Deshalado antes de descargarlo! 
 
 ¡O puede restaurar la ROM completa para restaurar la información del modelo! 
 
 Use el software DualBootPatcher MultiSystem. No use esta función para modificar el modelo! Intersección Intersección"</string>
+<string name="title_activity_folder_selector">Presione mucho y seleccione el directorio</string>
 <string name="kr_page_load_fail">Falló la carga de la página</string>
 <string name="share_link">"También intentas la escena, creo que no está mal, descarga la dirección: 
   http://vtools.comarea.com/"</string>
@@ -194,6 +208,7 @@ Use el software DualBootPatcher MultiSystem. No use esta función para modificar
 <string name="swap_on_close">Es lento para cerrar el intercambio</string>
 <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.fabtransformationscrimbehavior</string>
 <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+<string name="ushortcut_nsupported">Esta función no admite agregar accesos directos</string>
 <string name="app_name_mode_switch">Modo de interruptor de escena rápido</string>
 <string name="btn_not_now">Volver para hablar de</string>
 <string name="monitor_process_unsupported">¡El administrador de procesos aún no es compatible con su teléfono móvil!</string>
@@ -229,6 +244,7 @@ El archivo de control de temperatura generalmente se encuentra en el directorio/
 <string name="swap_outside_effect2">2. Ajuste el parámetro LMK de acuerdo con la capacidad de RAM del dispositivo para fortalecer la capacidad de retención de fondo</string>
 <string name="swap_outside_effect1">1. Mejore la velocidad de la configuración de ZRAM y SwapFile después de reiniciar el teléfono móvil</string>
 <string name="swap_outside_effect3">3. Ajuste los parámetros de la VM y mejore el entusiasmo de ZRAM y SwapFile</string>
+<string name="material_timepicker_pm">PM</string>
 <string name="kr_script_task_running">Operación de inicio</string>
 <string name="menu_filter">Filtro de pantalla</string>
 <string name="battery_manual_control">Control manual</string>
@@ -264,6 +280,29 @@ Generalmente se recomienda mantener la configuración predeterminada"</string>
 <string name="settings_black_notification">Fondo de notificación negra</string>
 <string name="settings_logcat_title">Registro de errores</string>
 <string name="magisk_install_title">Módulo adicional de escena</string>
+<string name="title_activity_trigger">desencadenar</string>
+<string name="watermark_scale_factor_desc" formatted="false">"El rango de valor es 0 ~ 1000, de los cuales 1000 representa el 10%, lo que indica que la diferencia entre los tres valores de los bajos/min/altos (capacidad de RAM física) del 10%. 
+
+Por ejemplo (mi teléfono móvil): 
+PageSize = 4KB 
+administrado = 1951743 (páginas) 
+min_free_kbytes = 10900 (kb) 
+Watermark_scale_factor = 500 
+
+En este momento, el valor es 
+10900 (KB)/4 (páginas) = ​​2725 (páginas) 
+El valor bajo es sobre 
+1951743*5%+2725≈100312 (páginas) 
+El alto valor es sobre 
+1951743*10%+2725≈197899 (páginas) 
+Nota: Los valores bajos y altos finales pueden verse influenciados por extra_free_kbytes 
+
+En este ejemplo, 
+min = 2725 = 10mb 
+Bajo = 100312 392MB 
+Alto = 197899≈773mb 
+
+Significa que la memoria comenzará a reciclar la memoria hasta 392 m, hasta que la memoria disponible sea superior a 773 MB ~"</string>
 <string name="abc_searchview_description_query">Consulta de busqueda</string>
 <string name="abc_searchview_description_submit">Enviar consulta</string>
 <string name="electricity_unit_adj_desc2">La carga debe mostrarse como un número positivo, la descarga debe mostrarse como un número negativo</string>
@@ -271,6 +310,7 @@ Generalmente se recomienda mantener la configuración predeterminada"</string>
 <string name="item_chooser_search_hint">Buscar artículo disponible</string>
 <string name="kr_sdk_discrepancy">La versión del sistema no coincide</string>
 <string name="addin_continue">continuar</string>
+<string name="system_scene_next_task">Siguiente tarea</string>
 <string name="addin_mac_desc_2">La dirección MAC de la tarjeta de red WiFi de teléfono móvil personalizado, solo admite algunos dispositivos, es más adecuado para Android Q</string>
 <string name="battery_forgery">Disfraz de datos</string>
 <string name="mtrl_picker_confirm">@android:string/ok</string>
@@ -283,7 +323,9 @@ Bloque de paquete: %s
 Escrito: %dMB 
 Lectura total: %dMB 
 Retorno total: %dMB"</string>
+<string name="system_scene_stop_charge">Dejar de cargar</string>
 <string name="btn_resume_selected">Restaurar selección</string>
+<string name="system_scene_battery_left">La potencia es más baja que</string>
 <string name="shortcut_create_success">Creación existente de aplicaciones de acceso directo</string>
 <string name="perf_opt">Respuesta dinámica</string>
 <string name="scene_speed_compile">com.omarea.vtools.speedcompile</string>
@@ -303,7 +345,7 @@ Retorno total: %dMB"</string>
 <string name="execute_fail">Falla de ejecución</string>
 <string name="abc_action_bar_up_description">Navegar</string>
 <string name="autobooster_tab_details">Configuración de la lista negra</string>
-<string name="mtrl_picker_range_header_title">Seleccione un rango de fechas</string>
+<string name="mtrl_picker_range_header_title">Rango de selección</string>
 <string name="first_start_select_config">Por primera vez, elija la preferencia de configuración primero</string>
 <string name="freeze_enable_completed">Aplicación de descongelación √</string>
 <string name="addin_flyme_static_blur">Reduce FlyMe6 Desfloque</string>
@@ -329,6 +371,7 @@ Retorno total: %dMB"</string>
 <string name="kr_bg_task_start">La tarea de fondo comienza a ejecutarse</string>
 <string name="backup_img_exists">/sdcard/%.Img ya existe, ¿cubre los archivos existentes?</string>
 <string name="boot_modify_mac">Modificar la dirección MAC...</string>
+<string name="material_minute_selection">Seleccionar minutos</string>
 <string name="script_losted">Recurso de script perdido</string>
 <string name="auto_clear_ignore_chager_desc">En el estado de carga, el movimiento de la pantalla de respiración se retrasa a la carga para completar la ejecución</string>
 <string name="scene_everything_compile">com.omarea.vtools.everythingcompile</string>
@@ -336,19 +379,23 @@ Retorno total: %dMB"</string>
 <string name="addin_pm_dexopt">Aplicar la estrategia de instalación dex2oat</string>
 <string name="kr_script_task_notification">Aviso de tarea de fondo</string>
 <string name="require_restart_app">Necesita reiniciar la aplicación para entrar en vigencia</string>
+<string name="title_activity_freeze">Prejuicio de aplicaciones</string>
 <string name="btn_modify_confirm">Confirmar los cambios</string>
 <string name="executed">¡La operación se ha completado!</string>
 <string name="abc_activitychooserview_choose_application">Elija una aplicación</string>
+<string name="system_scene_trigger">Mi gatillo</string>
 <string name="battery_pd_allowed">USB-PD CARGA RÁPIDA</string>
 <string name="swap_outside_module_desc">Ha instalado el marco Magisk. Se recomienda utilizar la última versión del módulo adicional para mejorar la confiabilidad del control de intercambio. El rol principal adicional es el siguiente:</string>
 <string name="autobooster_tab_system_scene">Escena del sistema</string>
 <string name="power_shutdown_cmd">Sync; SVC Power Stagin || reiniciar -p;</string>
 <string name="battery_night_mode">Velocidad de carga dinámica</string>
 <string name="kr_sdk_discrepancy_message">Esta función solo se ejecuta en el sistema de SDK %d</string>
+<string name="material_timepicker_minute">Minuto</string>
 <string name="freeze_entrance_changed">√ Se ha cambiado el estado de la pantalla del icono</string>
 <string name="app_name_short">Escena4</string>
 <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de entrada del calendario</string>
 <string name="kr_lock_message">Esta función ha sido bloqueada</string>
+<string name="select_language">Seleccionar Idioma</string>
 <string name="battery_usb_uevent_title">$ usb/uevent</string>
 <string name="menu_core_control">Control de la CPU</string>
 <string name="permission_modify_fail">¡Modificar los permisos fallidos!</string>
@@ -383,12 +430,14 @@ Retorno total: %dMB"</string>
 <string name="abc_menu_space_shortcut_label">espacio</string>
 <string name="addin_bpc">Rendimiento boost config strewline</string>
 <string name="kr_sdk_overtop">La versión del sistema es demasiado alta</string>
+<string name="wallpaper_rw_permission">Los permisos que deben ser \"leer y escribir almacenamiento local\" se pueden utilizar para usar el fondo de pantalla del sistema como fondo del software</string>
 <string name="flash_confirm">¿Confirma el cepillo?</string>
 <string name="performance_short">actuación</string>
 <string name="settings_auto_exit_desc">El proceso termina automáticamente cuando la operación es anormal para evitar atascado en la pantalla blanca</string>
 <string name="battery_delete_history">Eliminar el registro</string>
 <string name="backup_action_desc_dtbo">Exportar la partición DTBO como una imagen IMG, copiar a/sdcard/dtbo.img</string>
 <string name="not_support_config">Sin script de configuración de modo disponible</string>
+<string name="warn">advertir</string>
 <string name="addin_force_dex_compile_desc">Utilice correspondientemente la compilación Dex2oat para reducir la ocupación de CPU y RAM durante el tiempo de ejecución. ¡El proceso de compilación puede tomar media hora, y el sistema debe volver a compilarse después de actualizar el sistema!</string>
 <string name="scene_need_notic_listing">¡Autorice para permitir que la escena \"notifique los permisos de uso\"!</string>
 <string name="dex2oat_compiling">compilación de dex2oat</string>
@@ -401,10 +450,13 @@ Retorno total: %dMB"</string>
 <string name="addin_mac_desc">Dirección MAC de tarjeta de red WiFi de teléfono móvil personalizado, solo admite algunos dispositivos</string>
 <string name="btn_yes">Sí</string>
 <string name="kr_please_choose_file">Seleccione el archivo</string>
+<string name="material_timepicker_hour">Hora</string>
 <string name="swap_module_install_desc">Después de descargar el módulo, ¡cápsula en Magisk Manager y reinicie su teléfono!</string>
 <string name="settings_disable_selinux">Modo de tolerancia Selinux</string>
 <string name="scene_create_shortcut_action">com.omarea.vtools.createshortcut</string>
 <string name="settings_theme_wallpaper">Fondo de pantalla</string>
+<string name="material_motion_easing_emphasized">ruta (m 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+<string name="zram_resizing">Ajuste, espere pacientemente...</string>
 <string name="abc_menu_shift_shortcut_label">Cambio+</string>
 <string name="shortcut_create">Añadir atajo</string>
 <string name="kr_params_render">Interfaz de representación...</string>
@@ -437,7 +489,9 @@ Por ejemplo: el modelo SDM845 de Xiaomi está en Android9.0, debe verificar este
 <string name="swap_delete">borrar</string>
 <string name="abc_menu_meta_shortcut_label">Meta+</string>
 <string name="config_online_options">Elija una biblioteca de guiones en línea</string>
+<string name="material_clock_display_divider">:</string>
 <string name="menu_app_scene">Escenarios de aplicación</string>
+<string name="type">tipo</string>
 <string name="swap_zram_stat_format" formatted="false">"Algoritmo de compresión de datos: %s 
 Tamaño de datos original: %s 
 El tamaño después de la compresión: %s 
@@ -455,6 +509,7 @@ Tasa de compresión: %s"</string>
 <string name="boot_swapon">Empiece a intercambiar...</string>
 <string name="settings_debug_layer">Ventana de depuración</string>
 <string name="addin_dex2oat_helplink">https://source.android.com/devices/tech/dalvik/jit-compiler?hl=zh-cn</string>
+<string name="material_motion_easing_accelerated">Cúbico-Bezier (0.4, 0.0, 1.0, 1.0)</string>
 <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
 <string name="battery_pd_allowed_desc">Los teléfonos móviles compatibles determinan si activar la carga de USB-PD sin configuraciones manuales. El interruptor manual causará una velocidad de carga lenta, ¡por lo que no se permite la modificación manual!</string>
 <string name="priority">prioridad</string>
@@ -474,9 +529,11 @@ Tasa de compresión: %s"</string>
 <string name="on_execute_please_wait">Operación ejecutiva, espere...</string>
 <string name="settings_theme_wallpaper_desc">Use el fondo de pantalla del sistema como fondo de la ventana, que se muestra como una interfaz translúcida</string>
 <string name="menu_home">Descripción general</string>
+<string name="material_timepicker_am">SOY</string>
 <string name="abc_menu_alt_shortcut_label">Alt+</string>
 <string name="kr_please_select">por favor elija</string>
 <string name="addin_fullscreen_on">Experiencia inmersiva</string>
+<string name="title_activity_shortcut">Empezar rápidamente</string>
 <string name="abc_action_menu_overflow_description">Mas opciones</string>
 <string name="mtrl_picker_text_input_day_abbr">d</string>
 <string name="abc_shareactionprovider_share_with">Compartir con</string>
@@ -486,13 +543,14 @@ Tasa de compresión: %s"</string>
 Tomando el cliente de TV Douyu bajo el sistema Oreo como ejemplo, el Base.odex es de solo 6.8 MB durante la nueva instalación, y aumentará a 103 MB después de la compilación. 
 
 Sin embargo, muchas aplicaciones nacionales usan tecnología de actualización térmica. A menudo necesita descargar el último código del servidor y analizar la representación del servidor. Esta es la razón principal por la cual estas aplicaciones son lentas o atascadas después de comenzar. ¡Por lo tanto, la compilación Dex2oat no trae una mejora significativa del rendimiento a tales aplicaciones!"</string>
+<string name="title_activity_online">Escena en línea</string>
 <string name="btn_no">No</string>
 <string name="kr_shortcut_create_desc">¿Quieres agregar \"%s\" al escritorio para fácil usar?</string>
 <string name="btn_delete">borrar</string>
 <string name="settings_auto_exit">Salir automáticamente</string>
 <string name="shortcut_p2_long">Configuración de rendimiento equilibrado</string>
 <string name="swap_io">Cambiarme</string>
-<string name="swap_module_target_version">3303</string>
+<string name="swap_module_target_version">3302</string>
 <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.hidebottomviewonscrollbehavior</string>
 <string name="mtrl_picker_range_header_only_start_selected">%1$s - fecha de finalización</string>
 <string name="more">aprende más</string>
@@ -503,6 +561,7 @@ Sin embargo, muchas aplicaciones nacionales usan tecnología de actualización t
 <string name="addin_dpi_desc">El DPI o la resolución de teléfonos móviles personalizados puede hacer que el dispositivo no pueda comenzar normalmente, o error de interfaz de usuario</string>
 <string name="battery_bp_level_desc">Valor límite de electricidad (%)</string>
 <string name="help">ayuda</string>
+<string name="bottomsheet_action_expand_halfway">Expandirse a la mitad</string>
 <string name="kr_page_sh_invalid">Salida de configuración de la página inferida</string>
 <string name="question_install_busybox_desc">Su teléfono no parece estar instalado con BusyBox, lo que hará que la escena no esté disponible. ¿Desea instalarlo de inmediato (necesita modificar el sistema)?</string>
 <string name="menu_xposed_app">Configuraciones de la aplicación</string>
@@ -511,7 +570,10 @@ Sin embargo, muchas aplicaciones nacionales usan tecnología de actualización t
 <string name="battery_uevent_title">$ bms/uevent</string>
 <string name="settings_help_icon">Icono rápido</string>
 <string name="cache_recycle">Caché de reciclaje</string>
+<string name="used">usado</string>
 <string name="busybox_nonsupport">El BusyBox integrado por la escena no es compatible con su sistema actual. Descargue e instale BusyBox usted mismo</string>
+<string name="system_scene_resume_charge">Recuperar la carga</string>
+<string name="material_timepicker_text_input_mode_description">Cambie al modo de entrada de texto para la entrada de tiempo.</string>
 <string name="cgroup_mem_title">cemo</string>
 <string name="auto_clear_ignore_chager">El estado de carga ignora</string>
 <string name="copy_success">Replicación</string>
@@ -534,11 +596,13 @@ Cuanto mayor sea el valor, más activo se utilizará el intercambio. El efecto d
 <string name="ro_product_manufacturer">Ro.Product.Manufacturer =</string>
 <string name="kr_shortcut_create">Añadir atajo</string>
 <string name="lmk_optimize">Optimización de baja memoria</string>
+<string name="material_motion_easing_linear">Cúbico-Bezier (0.0, 0.0, 1.0, 1.0)</string>
 <string name="mtrl_picker_text_input_date_hint">Fecha</string>
 <string name="addin_deviceinfo_desc">Al cambiar el modelo Built.Prop Camuflage, es posible que algunos teléfonos móviles no puedan encenderse o aparecer en error</string>
 <string name="boot_script_running">Script de autoenjunto...</string>
 <string name="restore_action_desc_rec">Elija en Recovery.img</string>
 <string name="start_app_fail">¡Falló la aplicación de inicio!</string>
+<string name="watermark_scale_factor">Watermark_scale_factor</string>
 <string name="path_password_strike_through">Con. 27.4.27 L19.74,20.74</string>
 <string name="swap_zram_equitable">Usar al mismo tiempo que Zram</string>
 <string name="swap_zram_compact_algorithm">Algoritmo de compresión</string>
@@ -555,6 +619,7 @@ Cuanto mayor sea el valor, más activo se utilizará el intercambio. El efecto d
 Si necesita configurar la configuración, haga clic en el botón \"Ajustar\" a continuación"</string>
 <string name="swap_vmstat">VM STAT</string>
 <string name="kr_shortcut_create_fail">El ayuno no pudo crear un atajo</string>
+<string name="material_clock_toggle_content_description">Seleccione AM o PM</string>
 <string name="dynamic_auto_disabled">¡La respuesta dinámica se ha deshabilitado automáticamente sin detectar archivos de configuración!</string>
 <string name="btn_continue">continuar</string>
 <string name="electricity_unit_adj">Calibración de la unidad actual</string>
